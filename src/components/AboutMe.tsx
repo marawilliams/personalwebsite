@@ -1,3 +1,4 @@
+"use client";
 import { FunctionComponent, useCallback } from 'react';
 import styles from './AboutMe.module.css';
 
