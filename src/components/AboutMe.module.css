@@ -1,0 +1,3116 @@
+.aboutMe {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fffbe4;
+  	height: 13218px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 21.12px;
+  	color: #6c7f5b;
+  	font-family: 'Red Hat Mono';
+}
+.albums {
+  	position: absolute;
+  	top: 11798px;
+  	left: 78px;
+  	width: 1278px;
+  	height: 1356px;
+  	color: #f69833;
+  	font-family: 'Press Start 2P';
+}
+.albumsChild {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 11px);
+  	border-radius: 50%;
+  	background-color: rgba(246, 152, 51, 0.25);
+  	width: 20px;
+  	height: 20px;
+}
+.albumsItem {
+  	position: absolute;
+  	top: 84px;
+  	left: calc(50% - 11px);
+  	border-radius: 50%;
+  	background-color: rgba(246, 152, 51, 0.5);
+  	width: 20px;
+  	height: 20px;
+}
+.albumsInner {
+  	position: absolute;
+  	top: 168px;
+  	left: calc(50% - 11px);
+  	border-radius: 50%;
+  	background-color: rgba(246, 152, 51, 0.75);
+  	width: 20px;
+  	height: 20px;
+}
+.ellipseDiv {
+  	position: absolute;
+  	top: 252px;
+  	left: calc(50% - 11px);
+  	border-radius: 50%;
+  	background-color: #f69833;
+  	width: 20px;
+  	height: 20px;
+}
+.whatIThinkContainer {
+  	position: absolute;
+  	top: 336px;
+  	left: calc(50% - 218px);
+  	line-height: 27px;
+  	display: flex;
+  	align-items: center;
+  	width: 433px;
+  	height: 85px;
+}
+.aboutMeWhatIThinkContainer {
+  	width: 100%;
+}
+.whatIThink {
+  	margin-block-start: 0;
+  	margin-block-end: 10.56px;
+}
+.shhhhhh {
+  	margin: 0;
+}
+.aboutMeAlbums {
+  	position: absolute;
+  	top: 495px;
+  	left: 1px;
+  	width: 189px;
+  	height: 189px;
+}
+.albumCoverIcon {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.albums2 {
+  	position: absolute;
+  	top: 495px;
+  	left: 218.5px;
+  	width: 189px;
+  	height: 189px;
+}
+.aboutMeAlbumCoverIcon {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.albums3 {
+  	position: absolute;
+  	top: 495px;
+  	left: 436px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums4 {
+  	position: absolute;
+  	top: 495px;
+  	left: 653px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums5 {
+  	position: absolute;
+  	top: 495px;
+  	left: 870.5px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums6 {
+  	position: absolute;
+  	top: 495px;
+  	left: 1088px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums7 {
+  	position: absolute;
+  	top: 719px;
+  	left: 653px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums8 {
+  	position: absolute;
+  	top: 719px;
+  	left: 871px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums9 {
+  	position: absolute;
+  	top: 719px;
+  	left: 1088px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums10 {
+  	position: absolute;
+  	top: 719px;
+  	left: 435px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums11 {
+  	position: absolute;
+  	top: 719px;
+  	left: 217.5px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums12 {
+  	position: absolute;
+  	top: 719px;
+  	left: 0px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums13 {
+  	position: absolute;
+  	top: 943px;
+  	left: 217.5px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums14 {
+  	position: absolute;
+  	top: 943px;
+  	left: 435px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums15 {
+  	position: absolute;
+  	top: 943px;
+  	left: 0px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums16 {
+  	position: absolute;
+  	top: 943px;
+  	left: 653px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums17 {
+  	position: absolute;
+  	top: 943px;
+  	left: 871px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums18 {
+  	position: absolute;
+  	top: 943px;
+  	left: 1089px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums19 {
+  	position: absolute;
+  	top: 1167px;
+  	left: 1px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums20 {
+  	position: absolute;
+  	top: 1167px;
+  	left: 217px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums21 {
+  	position: absolute;
+  	top: 1167px;
+  	left: 435px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums22 {
+  	position: absolute;
+  	top: 1167px;
+  	left: 653px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums23 {
+  	position: absolute;
+  	top: 1167px;
+  	left: 871px;
+  	width: 189px;
+  	height: 189px;
+}
+.albums24 {
+  	position: absolute;
+  	top: 1167px;
+  	left: 1087px;
+  	width: 189px;
+  	height: 189px;
+}
+.work {
+  	position: absolute;
+  	top: 8943px;
+  	left: -60px;
+  	width: 1535px;
+  	height: 754px;
+  	text-align: left;
+  	font-size: 20.25px;
+}
+.workChild {
+  	position: absolute;
+  	top: 41px;
+  	left: 0px;
+  	border-radius: 41px;
+  	background-color: #e7ecd5;
+  	width: 1535px;
+  	height: 713px;
+}
+.aboutMeWork {
+  	position: absolute;
+  	top: 41px;
+  	left: 34px;
+  	width: 1463px;
+  	height: 664px;
+  	overflow: hidden;
+}
+.carouselframes {
+  	position: absolute;
+  	top: -69px;
+  	left: -1517px;
+  	background-color: rgba(255, 255, 255, 0);
+  	width: 5354.1px;
+  	height: 801.9px;
+  	overflow: hidden;
+}
+.baristaframe {
+  	position: absolute;
+  	top: 207px;
+  	left: 3373.2px;
+  	width: 615.6px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	opacity: 0.5;
+}
+.baristaframeChild {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 32.4px 32.4px 0px 0px;
+  	background-color: #f69833;
+  	height: 58.7px;
+  	z-index: 0;
+}
+.baristaframeItem {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 0px 0px 32.4px 32.4px;
+  	background-color: #fffbe4;
+  	border: 4px dashed #f69833;
+  	box-sizing: border-box;
+  	height: 369.9px;
+  	z-index: 1;
+}
+.datesSummer2023Container {
+  	width: 574.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 66.82px;
+  	left: 20.92px;
+  	line-height: 210%;
+  	display: inline-block;
+  	z-index: 2;
+}
+.dates {
+  	font-family: 'Press Start 2P';
+}
+.duties {
+  	margin: 0;
+  	font-family: 'Press Start 2P';
+}
+.assistedBothOnBarAndAtCa {
+  	margin: 0;
+  	font-size: inherit;
+  	padding-left: 27px;
+}
+.aboutMeAssistedBothOnBarAndAtCa {
+  	margin-bottom: 0px;
+}
+.baristaEspresso {
+  	width: 574.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 10.8px;
+  	left: 20.92px;
+  	font-size: 18.23px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	color: #fffbe4;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 36.5px;
+  	flex-shrink: 0;
+  	z-index: 3;
+}
+.baristaframeInner {
+  	width: 304.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 99.9px;
+  	left: 170.77px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	z-index: 4;
+}
+.lineDiv {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 269.32px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 5;
+}
+.aboutMeBaristaframeChild {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 354.38px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 6;
+}
+.baristaframeChild2 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 311.85px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 7;
+}
+.baristaframeChild3 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 270.67px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 8;
+}
+.baristaframeChild4 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 355.72px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 9;
+}
+.baristaframeChild5 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 313.2px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 10;
+}
+.baristaframeChild6 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 269.32px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 11;
+}
+.baristaframeChild7 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 311.85px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 12;
+}
+.baristaframeChild8 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 185.62px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 13;
+}
+.baristaframeChild9 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 228.15px;
+  	left: 19.57px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 14;
+}
+.baristaframeChild10 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 270.67px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 15;
+}
+.baristaframeChild11 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 355.72px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 16;
+}
+.baristaframeChild12 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 313.2px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 17;
+}
+.baristaframeChild13 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 186.3px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 18;
+}
+.baristaframeChild14 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 228.82px;
+  	left: 323.32px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 19;
+}
+.leftedgeframe {
+  	position: absolute;
+  	top: 207px;
+  	left: 493.2px;
+  	width: 615.6px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	opacity: 0.5;
+}
+.aboutMeDatesSummer2023Container {
+  	width: 574.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 66.82px;
+  	left: 20.93px;
+  	line-height: 210%;
+  	display: inline-block;
+  	z-index: 2;
+}
+.aboutMeBaristaEspresso {
+  	width: 574.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 10.8px;
+  	left: 20.93px;
+  	font-size: 18.23px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	color: #fffbe4;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 36.5px;
+  	flex-shrink: 0;
+  	z-index: 3;
+}
+.leftedgeframeInner {
+  	width: 304.4px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 99.9px;
+  	left: 170.78px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	z-index: 4;
+}
+.aboutMeLeftedgeframeChild {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 269.32px;
+  	left: 19.58px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 5;
+}
+.leftedgeframeChild2 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 354.38px;
+  	left: 19.58px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 6;
+}
+.leftedgeframeChild4 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 270.67px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 8;
+}
+.leftedgeframeChild6 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 313.2px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 10;
+}
+.leftedgeframeChild7 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 269.32px;
+  	left: 19.58px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 11;
+}
+.leftedgeframeChild9 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 185.62px;
+  	left: 19.58px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 13;
+}
+.leftedgeframeChild11 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 270.67px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 15;
+}
+.leftedgeframeChild13 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 313.2px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 17;
+}
+.leftedgeframeChild14 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 186.3px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 18;
+}
+.leftedgeframeChild15 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 228.82px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 19;
+}
+.internframe {
+  	position: absolute;
+  	top: 207px;
+  	left: 2704.5px;
+  	width: 615.6px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	opacity: 0.5;
+}
+.expeditionsframe {
+  	position: absolute;
+  	top: 207px;
+  	left: 1161.9px;
+  	width: 615.6px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	opacity: 0.5;
+}
+.expeditionsframeChild5 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 355.72px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 9;
+}
+.expeditionsframeChild12 {
+  	width: 272px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 355.72px;
+  	left: 323.33px;
+  	border-top: 1.3px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 16;
+}
+.technologistframe {
+  	position: absolute;
+  	top: 117.9px;
+  	left: 1830.6px;
+  	width: 820.8px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 27px;
+}
+.technologistframeChild {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 43.2px 43.2px 0px 0px;
+  	background-color: #f69833;
+  	height: 78.3px;
+  	z-index: 0;
+}
+.technologistframeItem {
+  	align-self: stretch;
+  	position: relative;
+  	border-radius: 0px 0px 43.2px 43.2px;
+  	background-color: #fffbe4;
+  	border: 5.4px dashed #f69833;
+  	box-sizing: border-box;
+  	height: 493.2px;
+  	z-index: 1;
+}
+.dates082024Container {
+  	width: 765.9px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 89.1px;
+  	left: 27.9px;
+  	line-height: 210%;
+  	display: inline-block;
+  	z-index: 2;
+}
+.runWorkshopsOnVariousTechn {
+  	margin: 0;
+  	font-size: inherit;
+  	padding-left: 36px;
+}
+.technologistUva {
+  	width: 765.9px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 14.4px;
+  	left: 27.9px;
+  	font-size: 24.3px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	color: #fffbe4;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 48.6px;
+  	flex-shrink: 0;
+  	z-index: 3;
+}
+.technologistframeInner {
+  	width: 405.9px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 133.2px;
+  	left: 227.7px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	z-index: 4;
+}
+.aboutMeTechnologistframeChild {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 359.1px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 5;
+}
+.technologistframeChild2 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 472.5px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 6;
+}
+.technologistframeChild3 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 415.8px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 7;
+}
+.technologistframeChild4 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 360.9px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 8;
+}
+.technologistframeChild5 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 474.3px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 9;
+}
+.technologistframeChild6 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 417.6px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 10;
+}
+.technologistframeChild7 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 359.1px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 11;
+}
+.technologistframeChild8 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 415.8px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 12;
+}
+.technologistframeChild9 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 247.5px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 13;
+}
+.technologistframeChild10 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 304.2px;
+  	left: 26.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 14;
+}
+.technologistframeChild11 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 360.9px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 15;
+}
+.technologistframeChild12 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 474.3px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 16;
+}
+.technologistframeChild13 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 417.6px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 17;
+}
+.technologistframeChild14 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 248.4px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 18;
+}
+.technologistframeChild15 {
+  	width: 362.7px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 305.1px;
+  	left: 431.1px;
+  	border-top: 1.8px dashed rgba(246, 152, 51, 0.5);
+  	box-sizing: border-box;
+  	height: 0px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+  	z-index: 19;
+}
+.technologistleftarrowIcon {
+  	position: absolute;
+  	top: 386.1px;
+  	left: 1658.7px;
+  	width: 98.1px;
+  	height: 98.1px;
+  	object-fit: contain;
+}
+.technologistrightarrow {
+  	position: absolute;
+  	top: 379.8px;
+  	left: 2725.2px;
+  	width: 98.1px;
+  	height: 98.1px;
+}
+.arrowbackground {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 50%;
+  	background-color: #6c7f5b;
+}
+.arrowheadIcon {
+  	position: absolute;
+  	height: 66.97%;
+  	width: 65.14%;
+  	top: 16.51%;
+  	right: 10.09%;
+  	bottom: 16.51%;
+  	left: 24.77%;
+  	border-radius: 9px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+.arrowtail {
+  	position: absolute;
+  	height: 18.35%;
+  	width: 40.37%;
+  	top: 41.28%;
+  	right: 44.95%;
+  	bottom: 40.37%;
+  	left: 14.68%;
+  	border-radius: 7.2px;
+  	background-color: #fffbe4;
+}
+.work2 {
+  	position: absolute;
+  	top: 1px;
+  	left: 623px;
+  	font-size: 64px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	text-align: center;
+}
+.mushworkExperiencevariant3Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 75px;
+  	width: 210px;
+  	height: 162px;
+  	object-fit: cover;
+}
+.aboutMe2 {
+  	position: absolute;
+  	top: 9648px;
+  	left: -72px;
+  	width: 1509.8px;
+  	height: 2184px;
+  	text-align: right;
+  	font-size: 36px;
+  	color: #f69833;
+}
+.aboutMeChild {
+  	position: absolute;
+  	top: 1577px;
+  	left: 921px;
+  	border-radius: 24px;
+  	background-color: #6c7f5b;
+  	border: 6px dashed #f69833;
+  	box-sizing: border-box;
+  	width: 467px;
+  	height: 352px;
+}
+.untitled1128Icon {
+  	position: absolute;
+  	width: 28.05%;
+  	top: 297px;
+  	right: 59.05%;
+  	left: 12.9%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 198.1px;
+  	object-fit: contain;
+}
+.untitled1129Icon {
+  	position: absolute;
+  	width: 34.2%;
+  	top: 335.24px;
+  	right: 48.09%;
+  	left: 17.7%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 349.5px;
+  	object-fit: contain;
+}
+.untitled1130Icon {
+  	position: absolute;
+  	width: 39.33%;
+  	top: 520.06px;
+  	right: 47.81%;
+  	left: 12.86%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 163.7px;
+  	object-fit: contain;
+}
+.threeWordsTo {
+  	position: absolute;
+  	top: 612.69px;
+  	left: 212.85px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	transform:  rotate(3.1deg);
+  	transform-origin: 0 0;
+}
+.favoriteBands {
+  	position: absolute;
+  	top: 302.46px;
+  	left: 872.34px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 337.1px;
+  	height: 147.9px;
+  	transform:  rotate(-0.8deg);
+  	transform-origin: 0 0;
+}
+.preferredLocations {
+  	position: absolute;
+  	top: 858.35px;
+  	left: 489px;
+  	line-height: 131%;
+  	font-weight: 600;
+  	text-align: left;
+  	transform:  rotate(-6.7deg);
+  	transform-origin: 0 0;
+}
+.funFacts {
+  	position: absolute;
+  	top: 1511px;
+  	left: 972px;
+  	font-size: 32px;
+  	line-height: 131%;
+  	font-family: 'Press Start 2P';
+  	color: #6c7f5b;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 413px;
+}
+.untitled1142Icon {
+  	position: absolute;
+  	top: 1801px;
+  	left: 984px;
+  	width: 312px;
+  	height: 61px;
+  	object-fit: cover;
+}
+.untitled1143Icon {
+  	position: absolute;
+  	top: 1634px;
+  	left: 984px;
+  	width: 359px;
+  	height: 61px;
+  	object-fit: cover;
+}
+.untitled1144Icon {
+  	position: absolute;
+  	top: 1692px;
+  	left: 984px;
+  	width: 359px;
+  	height: 61px;
+  	object-fit: cover;
+}
+.hobbies {
+  	position: absolute;
+  	top: 770.93px;
+  	left: 989.6px;
+  	line-height: 131%;
+  	font-weight: 600;
+  	text-align: left;
+  	transform:  rotate(1.9deg);
+  	transform-origin: 0 0;
+}
+.untitled1131Icon {
+  	position: absolute;
+  	top: 842px;
+  	left: 182px;
+  	width: 326px;
+  	height: 168px;
+  	object-fit: cover;
+}
+.untitled1132Icon {
+  	position: absolute;
+  	top: 907px;
+  	left: 173px;
+  	width: 419.6px;
+  	height: 252.2px;
+  	object-fit: contain;
+}
+.untitled1133Icon {
+  	position: absolute;
+  	top: 726px;
+  	left: 180px;
+  	width: 393px;
+  	height: 137px;
+  	object-fit: cover;
+}
+.div {
+  	position: absolute;
+  	top: 111px;
+  	left: 343px;
+  	line-height: 370%;
+  	font-weight: 600;
+}
+.newProject1 {
+  	position: absolute;
+  	top: 2041px;
+  	left: calc(50% + 7.46px);
+  	width: 51.6px;
+  	height: 45px;
+  	object-fit: contain;
+}
+.newProject3 {
+  	position: absolute;
+  	top: 2041px;
+  	left: 672px;
+  	width: 47px;
+  	height: 44px;
+  	object-fit: cover;
+}
+.newProject2 {
+  	position: absolute;
+  	top: 2044px;
+  	left: 857px;
+  	width: 41px;
+  	height: 39px;
+  	object-fit: cover;
+}
+.aboutMe3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 512px;
+  	font-size: 64px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	color: #6c7f5b;
+  	text-align: center;
+}
+.phonecomp {
+  	position: absolute;
+  	top: 116px;
+  	left: 220px;
+  	width: 110px;
+  	height: 117px;
+}
+.phonecompChild {
+  	position: absolute;
+  	height: 85.47%;
+  	width: 91.82%;
+  	top: 9.4%;
+  	right: 3.64%;
+  	bottom: 5.13%;
+  	left: 4.55%;
+  	border-radius: 50%;
+  	background-color: #fffbe4;
+}
+.untitled1127Icon {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 117px;
+  	object-fit: cover;
+}
+.githubcomp {
+  	position: absolute;
+  	top: 119px;
+  	left: 874px;
+  	width: 118px;
+  	height: 114px;
+}
+.githubcompChild {
+  	position: absolute;
+  	height: 87.72%;
+  	width: 85.59%;
+  	top: 7.89%;
+  	right: 6.78%;
+  	bottom: 4.39%;
+  	left: 7.63%;
+  	border-radius: 50%;
+  	background-color: #fffbe4;
+}
+.aboutMeUntitled1127Icon {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 115.3px;
+  	object-fit: cover;
+}
+.mailcomp {
+  	position: absolute;
+  	top: 111px;
+  	left: 715px;
+  	width: 111px;
+  	height: 121px;
+  	cursor: pointer;
+}
+.mailcompChild {
+  	position: absolute;
+  	height: 82.64%;
+  	width: 90.09%;
+  	top: 12.4%;
+  	right: 8.11%;
+  	bottom: 4.96%;
+  	left: 1.8%;
+  	border-radius: 50%;
+  	background-color: #fffbe4;
+}
+.untitled1127Icon2 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 121px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.linkedincomp {
+  	position: absolute;
+  	top: 117px;
+  	left: 1042px;
+  	width: 116px;
+  	height: 115px;
+}
+.linkedincompChild {
+  	position: absolute;
+  	height: 86.96%;
+  	width: 85.34%;
+  	top: 9.57%;
+  	right: 9.48%;
+  	bottom: 3.48%;
+  	left: 5.17%;
+  	border-radius: 50%;
+  	background-color: #fffbe4;
+}
+.untitled1127Icon3 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 115px;
+  	object-fit: cover;
+}
+.untitled1134Icon {
+  	position: absolute;
+  	top: 410px;
+  	left: 923px;
+  	width: 431px;
+  	height: 109px;
+  	object-fit: cover;
+}
+.untitled1135Icon {
+  	position: absolute;
+  	top: 465px;
+  	left: 771px;
+  	width: 313px;
+  	height: 127px;
+  	object-fit: cover;
+}
+.untitled1136Icon {
+  	position: absolute;
+  	top: 489.45px;
+  	left: 955.78px;
+  	width: 350.6px;
+  	height: 287px;
+  	object-fit: contain;
+}
+.untitled1138Icon {
+  	position: absolute;
+  	top: 733px;
+  	left: 760px;
+  	width: 394.8px;
+  	height: 236px;
+  	object-fit: contain;
+}
+.untitled1139Icon {
+  	position: absolute;
+  	top: 772.04px;
+  	left: 1124.08px;
+  	width: 224px;
+  	height: 173.2px;
+  	object-fit: contain;
+}
+.untitled1140Icon {
+  	position: absolute;
+  	top: 859.66px;
+  	left: 792.05px;
+  	width: 554.4px;
+  	height: 221px;
+  	object-fit: contain;
+}
+.spotifycomp {
+  	position: absolute;
+  	top: 123px;
+  	left: 1221px;
+  	width: 106px;
+  	height: 109px;
+}
+.spotifycompChild {
+  	position: absolute;
+  	width: 94.34%;
+  	top: 5px;
+  	right: 2.83%;
+  	left: 2.83%;
+  	border-radius: 50%;
+  	background-color: #fffbe4;
+  	height: 100px;
+}
+.untitled1141Icon {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 109px;
+  	object-fit: cover;
+}
+.img45451Icon {
+  	position: absolute;
+  	top: 1468px;
+  	left: 601px;
+  	border-radius: 60px;
+  	width: 376px;
+  	height: 502px;
+  	object-fit: cover;
+}
+.img74161Icon {
+  	position: absolute;
+  	top: 1069px;
+  	left: 601px;
+  	border-radius: 60px;
+  	width: 526px;
+  	height: 351px;
+  	object-fit: cover;
+}
+.img84331Icon {
+  	position: absolute;
+  	top: 1199px;
+  	left: 163px;
+  	border-radius: 60px;
+  	width: 404px;
+  	height: 538px;
+  	object-fit: cover;
+}
+.untitled1145Icon {
+  	position: absolute;
+  	top: 1014.29px;
+  	left: 953.24px;
+  	width: 556.5px;
+  	height: 496.4px;
+  	object-fit: contain;
+}
+.untitled1149Icon {
+  	position: absolute;
+  	top: 592px;
+  	left: 796px;
+  	width: 179.3px;
+  	height: 178.8px;
+  	object-fit: contain;
+}
+.untitled1150Icon {
+  	position: absolute;
+  	top: 400px;
+  	left: 50px;
+  	width: 206.6px;
+  	height: 205.7px;
+  	object-fit: cover;
+}
+.untitled1151Icon {
+  	position: absolute;
+  	top: 548px;
+  	left: 0px;
+  	width: 206.6px;
+  	height: 205.7px;
+  	object-fit: cover;
+}
+.untitled1152Icon {
+  	position: absolute;
+  	top: 1521px;
+  	left: 18px;
+  	width: 470px;
+  	height: 663px;
+  	object-fit: cover;
+}
+.introduction {
+  	position: absolute;
+  	top: 160px;
+  	left: 80px;
+  	width: 1264px;
+  	height: 513px;
+  	text-align: left;
+  	font-size: 32px;
+  	color: #f69833;
+}
+.iAmAnContainer {
+  	position: absolute;
+  	top: 189px;
+  	left: 0px;
+  	line-height: 80px;
+  	display: inline-block;
+  	width: 895px;
+  	height: 239px;
+}
+.introductionChild {
+  	position: absolute;
+  	top: 42px;
+  	left: 920px;
+  	border-radius: 60px;
+  	background-color: #f69833;
+  	width: 298px;
+  	height: 471px;
+}
+.aboutMeIntroduction {
+  	position: absolute;
+  	top: 28px;
+  	left: 0px;
+  	width: 900px;
+  	height: 145px;
+  	font-size: 48px;
+  	color: #6c7f5b;
+  	font-family: 'Press Start 2P';
+}
+.text {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 900px;
+}
+.fqs202508121008512741 {
+  	position: absolute;
+  	top: 0px;
+  	left: 935px;
+  	border-radius: 50px;
+  	width: 329px;
+  	height: 493px;
+  	object-fit: cover;
+}
+.skills {
+  	position: absolute;
+  	top: 927px;
+  	left: -118px;
+  	width: 1581px;
+  	height: 828px;
+  	font-size: 27px;
+  	color: #f69833;
+}
+.skillsChild {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	border-radius: 41px;
+  	background-color: #e7ecd5;
+  	width: 1581px;
+  	height: 778px;
+}
+.design {
+  	position: absolute;
+  	top: 92px;
+  	left: 949.25px;
+  	line-height: 60px;
+  	display: inline-block;
+  	width: 225px;
+  	height: 42.8px;
+}
+.software {
+  	position: absolute;
+  	top: 89px;
+  	left: 464.25px;
+  	line-height: 60px;
+  	display: inline-block;
+  	width: 225px;
+  	height: 42.8px;
+}
+.untitled120Icon {
+  	position: absolute;
+  	top: 220.25px;
+  	left: 960.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled121Icon {
+  	position: absolute;
+  	top: 221.75px;
+  	left: 1010.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled122Icon {
+  	position: absolute;
+  	top: 220.25px;
+  	left: 1064.75px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled123Icon {
+  	position: absolute;
+  	top: 221.75px;
+  	left: 1115.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.aboutMeUntitled120Icon {
+  	position: absolute;
+  	top: 220.25px;
+  	left: 1171px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled142Icon {
+  	position: absolute;
+  	top: 354.5px;
+  	left: 960.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled143Icon {
+  	position: absolute;
+  	top: 356px;
+  	left: 1010.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled144Icon {
+  	position: absolute;
+  	top: 354.5px;
+  	left: 1064.75px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled145Icon {
+  	position: absolute;
+  	top: 356px;
+  	left: 1115.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled120Icon2 {
+  	position: absolute;
+  	top: 155.75px;
+  	left: 959px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.aboutMeUntitled121Icon {
+  	position: absolute;
+  	top: 157.25px;
+  	left: 1009.25px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.aboutMeUntitled122Icon {
+  	position: absolute;
+  	top: 155.75px;
+  	left: 959px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled120Icon3 {
+  	position: absolute;
+  	top: 155.75px;
+  	left: 1121.75px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled121Icon2 {
+  	position: absolute;
+  	top: 156.5px;
+  	left: 1175.5px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled120Icon4 {
+  	position: absolute;
+  	top: 287px;
+  	left: 960.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled120Icon5 {
+  	position: absolute;
+  	top: 290.75px;
+  	left: 1010.75px;
+  	width: 47.5px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled120Icon6 {
+  	position: absolute;
+  	top: 290px;
+  	left: 1068.5px;
+  	width: 44.1px;
+  	height: 47.3px;
+  	object-fit: cover;
+}
+.untitled121Icon3 {
+  	position: absolute;
+  	top: 290px;
+  	left: 1123.25px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled122Icon2 {
+  	position: absolute;
+  	top: 290.75px;
+  	left: 1177px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled120Icon7 {
+  	position: absolute;
+  	top: 152.75px;
+  	left: 1065.5px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.photoshopIllustratorFigmaContainer {
+  	position: absolute;
+  	top: 145.25px;
+  	left: 829.5px;
+  	font-size: 18px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	color: #6c7f5b;
+  	text-align: right;
+}
+.untitled124Icon {
+  	position: absolute;
+  	top: 224.75px;
+  	left: 467.25px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled125Icon {
+  	position: absolute;
+  	top: 226.25px;
+  	left: 516.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled141Icon {
+  	position: absolute;
+  	top: 293.75px;
+  	left: 515px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled126Icon {
+  	position: absolute;
+  	top: 224.75px;
+  	left: 570.5px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled128Icon {
+  	position: absolute;
+  	top: 224.75px;
+  	left: 676.75px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled129Icon {
+  	position: absolute;
+  	top: 160.25px;
+  	left: 465.75px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled130Icon {
+  	position: absolute;
+  	top: 161.75px;
+  	left: 515px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled131Icon {
+  	position: absolute;
+  	top: 160.25px;
+  	left: 465.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled133Icon {
+  	position: absolute;
+  	top: 160.25px;
+  	left: 626.5px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled134Icon {
+  	position: absolute;
+  	top: 161px;
+  	left: 681.25px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled135Icon {
+  	position: absolute;
+  	top: 291.5px;
+  	left: 467.25px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled138Icon {
+  	position: absolute;
+  	top: 294.5px;
+  	left: 628px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled139Icon {
+  	position: absolute;
+  	top: 295.25px;
+  	left: 682.75px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled140Icon {
+  	position: absolute;
+  	top: 157.25px;
+  	left: 571.25px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.javaCPythonContainer {
+  	position: absolute;
+  	top: 149px;
+  	left: 389.25px;
+  	font-size: 18px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	color: #6c7f5b;
+  	text-align: right;
+}
+.untitled120Icon8 {
+  	position: absolute;
+  	top: 296px;
+  	left: 573.5px;
+  	width: 48.2px;
+  	height: 50.3px;
+  	object-fit: cover;
+}
+.untitled120Icon9 {
+  	position: absolute;
+  	top: 224.75px;
+  	left: 626.5px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled1121Icon {
+  	position: absolute;
+  	top: 612.5px;
+  	left: 1067.75px;
+  	width: 48.2px;
+  	height: 50.3px;
+  	object-fit: cover;
+}
+.art {
+  	position: absolute;
+  	top: 413.75px;
+  	left: 460.5px;
+  	line-height: 60px;
+  	display: inline-block;
+  	width: 225px;
+  	height: 42.8px;
+}
+.untitled163Icon {
+  	position: absolute;
+  	top: 540.5px;
+  	left: 465.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled164Icon {
+  	position: absolute;
+  	top: 542px;
+  	left: 515px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled165Icon {
+  	position: absolute;
+  	top: 609.5px;
+  	left: 513.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled166Icon {
+  	position: absolute;
+  	top: 540.5px;
+  	left: 569px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled180Icon {
+  	position: absolute;
+  	top: 608px;
+  	left: 569px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled167Icon {
+  	position: absolute;
+  	top: 540.5px;
+  	left: 675.25px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled168Icon {
+  	position: absolute;
+  	top: 476px;
+  	left: 464.25px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled169Icon {
+  	position: absolute;
+  	top: 477.5px;
+  	left: 513.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled170Icon {
+  	position: absolute;
+  	top: 476px;
+  	left: 464.25px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled173Icon {
+  	position: absolute;
+  	top: 476.75px;
+  	left: 679.75px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled174Icon {
+  	position: absolute;
+  	top: 607.25px;
+  	left: 465.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled177Icon {
+  	position: absolute;
+  	top: 473px;
+  	left: 569.75px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.graphitePaintingDigitalContainer {
+  	position: absolute;
+  	top: 464.75px;
+  	left: 366px;
+  	font-size: 18px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	color: #6c7f5b;
+  	text-align: right;
+}
+.untitled179Icon {
+  	position: absolute;
+  	top: 540.5px;
+  	left: 625px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled120Icon10 {
+  	position: absolute;
+  	top: 353.75px;
+  	left: 1170.25px;
+  	width: 47.5px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.other {
+  	position: absolute;
+  	top: 413.75px;
+  	left: 1021.25px;
+  	line-height: 60px;
+}
+.untitled198Icon {
+  	position: absolute;
+  	top: 542px;
+  	left: 960.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled199Icon {
+  	position: absolute;
+  	top: 543.5px;
+  	left: 1010.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled1100Icon {
+  	position: absolute;
+  	top: 542px;
+  	left: 1064.75px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled1119Icon {
+  	position: absolute;
+  	top: 608px;
+  	left: 960.5px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled1120Icon {
+  	position: absolute;
+  	top: 609.5px;
+  	left: 1010.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled1101Icon {
+  	position: absolute;
+  	top: 475.25px;
+  	left: 1120.25px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled1102Icon {
+  	position: absolute;
+  	top: 542px;
+  	left: 1171px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled1107Icon {
+  	position: absolute;
+  	top: 477.5px;
+  	left: 959px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.untitled1108Icon {
+  	position: absolute;
+  	top: 479px;
+  	left: 1009.25px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled1109Icon {
+  	position: absolute;
+  	top: 477.5px;
+  	left: 959px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled1111Icon {
+  	position: absolute;
+  	top: 542px;
+  	left: 1120.25px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled1116Icon {
+  	position: absolute;
+  	top: 611.75px;
+  	left: 1123.25px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled1117Icon {
+  	position: absolute;
+  	top: 612.5px;
+  	left: 1177px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled1118Icon {
+  	position: absolute;
+  	top: 474.5px;
+  	left: 1065.5px;
+  	width: 51.8px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.solderingLaserCuttingContainer {
+  	position: absolute;
+  	top: 467.75px;
+  	left: 807.25px;
+  	font-size: 18px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	color: #6c7f5b;
+  	text-align: right;
+}
+.untitled1112Icon {
+  	position: absolute;
+  	top: 478.25px;
+  	left: 1175.5px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled193Icon {
+  	position: absolute;
+  	top: 606.5px;
+  	left: 681.25px;
+  	width: 43.4px;
+  	height: 46.5px;
+  	object-fit: cover;
+}
+.untitled196Icon {
+  	position: absolute;
+  	top: 473.75px;
+  	left: 622.75px;
+  	width: 51px;
+  	height: 48.8px;
+  	object-fit: cover;
+}
+.untitled197Icon {
+  	position: absolute;
+  	top: 610.25px;
+  	left: 622.75px;
+  	width: 47.5px;
+  	height: 49.5px;
+  	object-fit: cover;
+}
+.aboutMeSkills {
+  	position: absolute;
+  	top: 0px;
+  	left: 643px;
+  	font-size: 64px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	color: #6c7f5b;
+}
+.aboutMevariant3Icon {
+  	position: absolute;
+  	top: 8px;
+  	left: 159px;
+  	width: 213px;
+  	height: 181px;
+  	object-fit: cover;
+}
+.untitled1146Icon {
+  	position: absolute;
+  	top: 166px;
+  	left: 6px;
+  	width: 383.7px;
+  	height: 426.2px;
+  	object-fit: contain;
+}
+.untitled1147Icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 1250px;
+  	width: 196.8px;
+  	height: 187.5px;
+  	object-fit: contain;
+}
+.untitled1153Icon {
+  	position: absolute;
+  	top: 517px;
+  	left: 28px;
+  	width: 262.5px;
+  	height: 250.1px;
+  	object-fit: contain;
+}
+.untitled1148Icon {
+  	position: absolute;
+  	top: 95px;
+  	left: 1297px;
+  	width: 206.2px;
+  	height: 245.9px;
+  	object-fit: contain;
+}
+.projects {
+  	position: absolute;
+  	top: 1708px;
+  	left: 39px;
+  	width: 1354.6px;
+  	height: 1453.6px;
+  	font-family: 'Press Start 2P';
+}
+.projecttilesParent {
+  	position: absolute;
+  	top: 134px;
+  	left: 0px;
+  	width: 1354.6px;
+  	display: grid;
+  	grid-template-rows: 3;
+  	grid-template-columns: 3;
+  	justify-content: start;
+  	align-content: start;
+  	column-gap: 10px;
+}
+.projecttiles {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.backgroundtile {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 39.6px;
+  	background-color: #e7ecd5;
+}
+.titletile {
+  	position: absolute;
+  	height: 16.23%;
+  	width: 82.46%;
+  	top: 3.57%;
+  	left: 8.77%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.imagetileIcon {
+  	position: absolute;
+  	height: 65.91%;
+  	width: 82.46%;
+  	top: 23.05%;
+  	right: 8.77%;
+  	bottom: 11.04%;
+  	left: 8.77%;
+  	border-radius: 29.04px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.component13 {
+  	position: absolute;
+  	top: 0px;
+  	left: 471.52px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.component15 {
+  	position: absolute;
+  	top: 0px;
+  	left: 943.04px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.component18 {
+  	position: absolute;
+  	top: 456.19px;
+  	left: 0px;
+  	width: 406.6px;
+  	height: 406.6px;
+  	font-size: 20px;
+}
+.waterPoloTeamTShirtsCommi {
+  	position: absolute;
+  	top: 341px;
+  	left: 37px;
+  	width: 334px;
+  	height: 477px;
+}
+.component17 {
+  	position: absolute;
+  	top: 456.19px;
+  	left: 471.52px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.component16 {
+  	position: absolute;
+  	top: 456.19px;
+  	left: 943.04px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.untitledArtwork11 {
+  	position: absolute;
+  	top: -1233px;
+  	left: -1038px;
+  	width: 3511px;
+  	height: 4096px;
+}
+.component21 {
+  	position: absolute;
+  	top: 912.37px;
+  	left: 0px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.imagetile {
+  	position: absolute;
+  	height: 65.91%;
+  	width: 82.46%;
+  	top: 23.05%;
+  	right: 8.77%;
+  	bottom: 11.04%;
+  	left: 8.77%;
+  	border-radius: 29.04px;
+  	background-color: #c4c4c4;
+}
+.component20 {
+  	position: absolute;
+  	top: 912.37px;
+  	left: 471.52px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.component19 {
+  	position: absolute;
+  	top: 912.37px;
+  	left: 943.04px;
+  	width: 406.6px;
+  	height: 406.6px;
+}
+.aboutMeProjects {
+  	position: absolute;
+  	top: 0px;
+  	left: 328px;
+  	font-size: 64px;
+  	line-height: 150%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 704px;
+  	height: 95px;
+}
+.csProjectsvariant5Icon {
+  	position: absolute;
+  	top: 18px;
+  	left: 21px;
+  	width: 112px;
+  	height: 131px;
+  	object-fit: cover;
+}
+.art4 {
+  	position: absolute;
+  	top: 3229px;
+  	left: -88px;
+  	width: 1581px;
+  	height: 4503px;
+  	font-size: 64px;
+  	font-family: 'Press Start 2P';
+}
+.artChild {
+  	position: absolute;
+  	top: 49px;
+  	left: 0px;
+  	border-radius: 41px;
+  	background-color: #e7ecd5;
+  	width: 1581px;
+  	height: 4454px;
+}
+.image4Icon {
+  	position: absolute;
+  	top: 1007px;
+  	left: 125px;
+  	width: 627px;
+  	height: 376px;
+  	object-fit: cover;
+}
+.image9Icon {
+  	position: absolute;
+  	top: 3663px;
+  	left: 577px;
+  	width: 899px;
+  	height: 513px;
+  	object-fit: cover;
+}
+.img24011Icon {
+  	position: absolute;
+  	top: 1415px;
+  	left: 123px;
+  	width: 627px;
+  	height: 668px;
+  	object-fit: cover;
+}
+.characterDesignDigital1 {
+  	position: absolute;
+  	top: 151px;
+  	left: 125px;
+  	width: 627px;
+  	height: 835px;
+  	object-fit: cover;
+}
+.killuaTshirtDesign1 {
+  	position: absolute;
+  	top: 151px;
+  	left: 784px;
+  	width: 686px;
+  	height: 382px;
+  	object-fit: cover;
+}
+.handStudy1 {
+  	position: absolute;
+  	top: 1118px;
+  	left: 786px;
+  	width: 318px;
+  	height: 364px;
+  	object-fit: cover;
+}
+.digitalIllustration1 {
+  	position: absolute;
+  	top: 1118px;
+  	left: 1138px;
+  	width: 332px;
+  	height: 364px;
+  	object-fit: cover;
+}
+.bleachPainting1 {
+  	position: absolute;
+  	top: 569px;
+  	left: 786px;
+  	width: 684px;
+  	height: 513px;
+  	object-fit: cover;
+}
+.dModeling1 {
+  	position: absolute;
+  	top: 1518px;
+  	left: 786px;
+  	width: 690px;
+  	height: 757px;
+  	object-fit: cover;
+}
+.img29611Icon {
+  	position: absolute;
+  	top: 2109px;
+  	left: 123px;
+  	width: 627px;
+  	height: 651px;
+  	object-fit: cover;
+}
+.img25891Icon {
+  	position: absolute;
+  	top: 2309px;
+  	left: 786px;
+  	width: 690px;
+  	height: 357px;
+  	object-fit: cover;
+}
+.img64731Icon {
+  	position: absolute;
+  	top: 2796px;
+  	left: 577px;
+  	width: 173px;
+  	height: 840px;
+  	object-fit: contain;
+}
+.img27351Icon {
+  	position: absolute;
+  	top: 2796px;
+  	left: 123px;
+  	width: 427px;
+  	height: 391px;
+  	object-fit: cover;
+}
+.img25792Icon {
+  	position: absolute;
+  	top: 3817px;
+  	left: 125px;
+  	width: 428px;
+  	height: 576px;
+  	object-fit: cover;
+}
+.untitledArtwork1Icon {
+  	position: absolute;
+  	top: 3216px;
+  	left: 123px;
+  	width: 429px;
+  	height: 572px;
+  	object-fit: cover;
+}
+.portraitStudy11 {
+  	position: absolute;
+  	top: 2691px;
+  	left: 786px;
+  	width: 690px;
+  	height: 945px;
+  	object-fit: cover;
+}
+.art5 {
+  	position: absolute;
+  	top: 0px;
+  	left: 668px;
+  	line-height: 150%;
+}
+.education {
+  	position: absolute;
+  	top: 7672px;
+  	left: -169px;
+  	width: 1606px;
+  	height: 1181px;
+  	text-align: left;
+  	font-size: 24px;
+}
+.darGoodCitizensAwardQualiParent {
+  	position: absolute;
+  	top: 858px;
+  	left: 286px;
+  	width: 1206px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 17px;
+}
+.darGoodCitizensContainer {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 143%;
+}
+.darGoodCitizens {
+  	margin: 0;
+  	font-weight: 600;
+}
+.qualitiesOfDependabilitySe {
+  	margin: 0;
+  	font-size: inherit;
+  	padding-left: 32px;
+}
+.michaelGSmithers {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 143%;
+  	font-weight: 600;
+}
+.educationChild {
+  	position: absolute;
+  	top: 182px;
+  	left: 573px;
+  	border-radius: 49.5px;
+  	background-color: #e7ecd5;
+  	width: 237px;
+  	height: 171px;
+}
+.gpa39 {
+  	position: absolute;
+  	top: 212px;
+  	left: 614px;
+  	font-size: 40px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	text-align: center;
+}
+.bsComputerEngineering {
+  	position: absolute;
+  	top: 128.25px;
+  	left: 524.75px;
+  	font-size: 27px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 690.8px;
+}
+.universityOfVirginia {
+  	position: absolute;
+  	top: 51px;
+  	left: 581.75px;
+  	font-size: 30px;
+  	line-height: 370%;
+  	font-weight: 600;
+  	color: #f69833;
+}
+.achievements {
+  	position: absolute;
+  	top: 729px;
+  	left: calc(50% - 87px);
+  	font-size: 48px;
+  	line-height: 370%;
+  	color: #f69833;
+}
+.aboutMeEducation {
+  	position: absolute;
+  	top: 0px;
+  	left: 573px;
+  	font-size: 64px;
+  	line-height: 150%;
+  	font-family: 'Press Start 2P';
+  	text-align: center;
+}
+.musheducationvariant3Icon {
+  	position: absolute;
+  	top: 22px;
+  	left: 311px;
+  	width: 150px;
+  	height: 309px;
+  	object-fit: cover;
+}
+.educationItem {
+  	position: absolute;
+  	top: 181px;
+  	left: 839px;
+  	border-radius: 82.5px;
+  	background-color: rgba(108, 127, 91, 0.25);
+  	width: 679px;
+  	height: 328px;
+}
+.educationInner {
+  	position: absolute;
+  	top: 372.5px;
+  	left: 206.5px;
+  	border-radius: 82.5px;
+  	background-color: rgba(108, 127, 91, 0.25);
+  	border: 3px solid #6c7f5b;
+  	box-sizing: border-box;
+  	width: 769px;
+  	height: 382px;
+}
+.activities {
+  	position: absolute;
+  	top: 362px;
+  	left: 473px;
+  	font-size: 30px;
+  	line-height: 370%;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 273px;
+}
+.rodmanScholarHonorsContainer {
+  	position: absolute;
+  	top: 445px;
+  	left: 240px;
+  	line-height: 120%;
+  	display: inline-block;
+  	width: 689px;
+  	height: 360px;
+}
+.aboutMeRodmanScholar {
+  	font-weight: 600;
+}
+.honorsProgramFor {
+  	font-family: 'Red Hat Mono';
+}
+.aboutMeClimbingTeam {
+  	font-weight: 600;
+  	font-family: 'Red Hat Mono';
+}
+.relevantCoursework {
+  	position: absolute;
+  	top: 171.25px;
+  	left: 932px;
+  	font-size: 30px;
+  	line-height: 370%;
+  	display: flex;
+  	color: #fffbe4;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 414px;
+}
+.dataStructuresContainer {
+  	position: absolute;
+  	top: 260px;
+  	left: 904px;
+  	line-height: 140%;
+  	font-weight: 600;
+  	color: #fffbe4;
+  	display: inline-block;
+  	width: 702px;
+  	height: 304px;
+}
+.dataStructuresAlgorithmsC {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 32px;
+}
+.untitled1156Icon {
+  	position: absolute;
+  	top: 366px;
+  	left: 1015px;
+  	width: 33.7px;
+  	height: 32.1px;
+  	object-fit: contain;
+}
+.untitled1157Icon {
+  	position: absolute;
+  	top: 398px;
+  	left: 1015px;
+  	width: 33.7px;
+  	height: 32.1px;
+  	object-fit: contain;
+}
+.untitled1165Icon {
+  	position: absolute;
+  	top: 263px;
+  	left: 898px;
+  	width: 33.7px;
+  	height: 32.1px;
+  	object-fit: contain;
+}
+.untitled1166Icon {
+  	position: absolute;
+  	top: 295px;
+  	left: 901px;
+  	width: 33.7px;
+  	height: 32.1px;
+  	object-fit: contain;
+}
+.untitled1158Icon {
+  	position: absolute;
+  	top: 432px;
+  	left: 1014px;
+  	width: 33.7px;
+  	height: 32.1px;
+  	object-fit: contain;
+}
+.untitled1159Icon {
+  	position: absolute;
+  	top: 330px;
+  	left: 1014px;
+  	width: 33.7px;
+  	height: 32.1px;
+  	object-fit: contain;
+}
+.untitled1161Icon {
+  	position: absolute;
+  	top: 56px;
+  	left: 1326px;
+  	width: 215.9px;
+  	height: 216.1px;
+  	object-fit: contain;
+}
+.untitled1162Icon {
+  	position: absolute;
+  	top: 99px;
+  	left: 0px;
+  	width: 325.2px;
+  	height: 328.8px;
+  	object-fit: contain;
+}
+.untitled1163Icon {
+  	position: absolute;
+  	top: 497px;
+  	left: 1024px;
+  	width: 154.1px;
+  	height: 265.2px;
+  	object-fit: cover;
+}
+.untitled1164Icon {
+  	position: absolute;
+  	top: 435px;
+  	left: 1441px;
+  	width: 154.1px;
+  	height: 212.3px;
+  	object-fit: cover;
+}
+.untitled1168Icon {
+  	position: absolute;
+  	top: 161px;
+  	left: 415px;
+  	width: 154.1px;
+  	height: 212.3px;
+  	object-fit: cover;
+}
+.navigation {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	background-color: #e7ecd5;
+  	height: 70px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	font-family: 'Press Start 2P';
+}
+.buttonSimpleAnimations {
+  	position: absolute;
+  	top: 11px;
+  	left: 304px;
+  	width: 135px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	cursor: pointer;
+}
+.base {
+  	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  	background-color: #e7ecd5;
+  	border: 1px solid #e7ecd5;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 20px;
+  	position: relative;
+  	gap: 8px;
+}
+.curtain {
+  	width: 99.49%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 2.08%;
+  	top: 97.92%;
+  	right: 0.51%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: rgba(246, 152, 51, 0.5);
+  	overflow: hidden;
+  	opacity: 0;
+  	z-index: 0;
+}
+.aboutMeText {
+  	position: relative;
+  	line-height: 24px;
+  	z-index: 1;
+}
+.aboutMeButtonSimpleAnimations {
+  	position: absolute;
+  	top: 11px;
+  	left: 489px;
+  	width: 168px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+}
+.aboutMeCurtain {
+  	width: 99.46%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 2.08%;
+  	top: 97.92%;
+  	right: 0.54%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: rgba(246, 152, 51, 0.5);
+  	overflow: hidden;
+  	opacity: 0;
+  	z-index: 0;
+}
+.buttonSimpleAnimations2 {
+  	position: absolute;
+  	top: 11px;
+  	left: 845px;
+  	width: 185px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	cursor: pointer;
+}
+.buttonSimpleAnimations3 {
+  	position: absolute;
+  	top: 11px;
+  	left: 1234px;
+  	width: 120px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+  	cursor: pointer;
+}
+.curtain3 {
+  	width: 99.5%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 2.08%;
+  	top: 97.92%;
+  	right: 0.5%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: rgba(246, 152, 51, 0.5);
+  	overflow: hidden;
+  	opacity: 0;
+  	z-index: 0;
+}
+.buttonSimpleAnimations4 {
+  	position: absolute;
+  	top: 11px;
+  	left: 1080px;
+  	width: 104px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+}
+.curtain4 {
+  	width: 99.42%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 2.08%;
+  	top: 97.92%;
+  	right: 0.58%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: rgba(246, 152, 51, 0.5);
+  	overflow: hidden;
+  	opacity: 0;
+  	z-index: 0;
+}
+.buttonSimpleAnimations5 {
+  	position: absolute;
+  	top: 11px;
+  	left: 707px;
+  	width: 88px;
+  	overflow: hidden;
+  	display: flex;
+  	align-items: flex-start;
+}
+.curtain5 {
+  	width: 99.43%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 2.08%;
+  	top: 97.92%;
+  	right: 0.57%;
+  	bottom: 0%;
+  	left: 0%;
+  	background-color: rgba(246, 152, 51, 0.5);
+  	overflow: hidden;
+  	opacity: 0;
+  	z-index: 0;
+}
+.homebuttoncomp {
+  	position: absolute;
+  	top: 11px;
+  	left: 35px;
+  	width: 53.9px;
+  	height: 47px;
+}
+.newProject5 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+
