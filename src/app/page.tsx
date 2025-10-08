@@ -1,11 +1,6 @@
-import LandingPage from "@/components/LandingPage";
-import AboutMe from "@/components/AboutMe";
+// src/app/page.tsx
+import LandingPage from '../components/LandingPage'; // adjust path if needed
 
-export default function Home() {
-  return (
-    <main>
-      <LandingPage />
-      <AboutMe />
-    </main>
-  );
+export default function HomePage() {
+  return <LandingPage />;
 }

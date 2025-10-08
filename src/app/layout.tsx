@@ -1,15 +1,14 @@
-import './globals.css';
-import type { Metadata } from 'next';
+// src/app/layout.tsx
 
-export const metadata: Metadata = {
-  title: 'My Website',
-  description: 'Personal site built with Next.js',
+export const metadata = {
+  title: 'mara williams portfolio',
+  description: 'Landing Page',
 };
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">

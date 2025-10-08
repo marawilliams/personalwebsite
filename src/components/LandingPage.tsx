@@ -1,18 +1,24 @@
 "use client";
-import { FunctionComponent } from 'react';
-import styles from './LandingPage.module.css';
+import { FunctionComponent } from "react";
+import { useRouter } from "next/navigation";
+import styles from "../styles/LandingPage.module.css";
 
+const LandingPage: FunctionComponent = () => {
+  const router = useRouter();
 
-const LandingPage:FunctionComponent = () => {
-  	return (
-    		<div className={styles.landingPage}>
-      			<div className={styles.mush}>
-        				<img className={styles.mush1Icon} alt="" />
-      			</div>
-      			<div className={styles.letsGo}>
-        				<div className={styles.landingPageLetsGo}>let’s go!</div>
-      			</div>
-    		</div>);
+  return (
+    <div className={styles.landingPage}>
+      <div className={styles.mush}>
+        <img
+          className={styles.mush1Icon}
+          src="/assets/mush1.png"
+          alt="Mushroom illustration"
+          style={{ cursor: 'pointer' }}
+          onClick={() => router.push("/mainpage")} // navigates to /mainpage
+        />
+      </div>
+    </div>
+  );
 };
 
 export default LandingPage;

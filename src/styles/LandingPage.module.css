@@ -1,0 +1,51 @@
+.landingPage {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFBE4; 
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* still hides any internal overflow */
+}
+
+.mush {
+  position: relative;
+  display: flex;
+  width: 481px;
+  height: 482px;
+  justify-content: center;
+  align-items: center;
+  padding: 53px 118px 58px 118px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mush1Icon {
+width: 245px;
+height: 371px;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+object-fit: cover;
+}
+
+.letsGo {
+width: 100%;
+position: relative;
+height: 48px;
+text-align: left;
+font-size: 48px;
+color: #fffbe4;
+font-family: 'Press Start 2P';
+}
+
+.landingPageLetsGo {
+  position: absolute;
+top: 0%;
+left: 0%;
+}
