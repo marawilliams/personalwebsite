@@ -44,8 +44,7 @@ color: #fffbe4;
 font-family: 'Press Start 2P';
 }
 
-.landingPageLetsGo {
-  position: absolute;
-top: 0%;
-left: 0%;
+::selection {
+  background-color: #F69833; /* your custom highlight color */
+  color: #FFFBE4;              /* optional: text color when highlighted */
 }

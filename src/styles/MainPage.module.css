@@ -1,0 +1,18 @@
+.MainPage {
+    position: relative;
+  width: 100%;
+  height: 13218;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFBE4; 
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* still hides any internal overflow */
+}
+
+::selection {
+  background-color: #F69833; /* your custom highlight color */
+  color: #FFFBE4;              /* optional: text color when highlighted */
+}   
