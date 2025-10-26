@@ -11,9 +11,12 @@ export default function MainPage(){
         <div className = {styles.MainPage}>
             <Nav className={styles.navigation}>
                 <div className={styles.navContent}>
-                <Button text="Home" />
-                <Button text="Dashboard" />
-                <Button text="Settings" />
+                <Button text="skills" />
+                <Button text="projects" />
+                <Button text="art" />
+                <Button text="education" />
+                <Button text="work" />
+                <Button text="about" />
             </div></Nav>
             <h1>This is the main page!</h1>
         </div>

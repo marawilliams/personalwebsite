@@ -4,11 +4,13 @@ height: 70px;
 position: fixed;
 background-color: #e7ecd5;
 overflow: hidden;
-text-align: left;
+text-align: right;
 font-size: 16px;
 top: 0;                    /* align to top of viewport */
 left: 0;
 color: #6c7f5b;
+justify-content: space-between; /* space between logo (or left) and buttons (right) */
+
 font-family: 'Press Start 2P';
 }
 
@@ -19,5 +21,7 @@ font-family: 'Press Start 2P';
   gap: 3 rem;            /* space between buttons */
   height: 100%;
   padding: 0 1rem;
+  gap: 12px;                   /* spacing between buttons */
+
   flex-wrap: nowrap;      /* prevent wrapping to next line */
 }
