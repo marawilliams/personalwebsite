@@ -22,16 +22,77 @@
 /* Header overlapping rectangle */
 .header {
   position: absolute;       /* position relative to rectangle */
-  top: -100px;               /* moves half of header above rectangle */
+  top: -100px;               /* moves header above rectangle */
   left: 50%;                /* center horizontally */
   transform: translateX(-50%);
- font-size: 64px;
-line-height: 150%;
-font-family: 'Press Start 2P';
-color: #6c7f5b;
-text-align: center;
-font-weight:normal;
+  font-size: 64px;
+  line-height: 150%;
+  font-family: 'Press Start 2P';
+  color: #6c7f5b;
+  text-align: center;
+  font-weight: normal;
   background-color: transparent; /* optional: leave transparent or match section */
   padding: 0 10px;
   z-index: 2;
+}
+
+/* Skills grid container */
+.skillscontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* always 2 columns */
+  column-gap: 30px; /* space between columns */
+  row-gap: 2rem;
+  align-items: start;
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 40px;
+}
+
+/* Individual skill category box */
+.skillcategory {
+  background: #fff;
+  border-radius: 8px;
+  width: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  width: 100%; /* let grid control column width */
+}
+
+.skillcategory h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* List of skills inside a category */
+.skilllist {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Individual skill items */
+.skillitem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;             /* space between name and dots */
+
+}
+
+/* Skill name styling */
+.skillname {
+  font-weight: 500;
+}
+
+/* Dots container */
+.skillsdots {
+  display: flex;
+  gap: 0.25rem;
+}
+
+/* Individual dot */
+.skilldot {
+  width: 18px;
+  height: 18px;
 }

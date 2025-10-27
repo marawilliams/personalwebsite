@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;   /* center horizontally */
-  justify-content: center; /* center vertically */
   margin: 50px auto;     /* spacing around section */
   border-radius: 8px;
   text-align: center;
@@ -16,6 +15,46 @@
 }
 
 .image {
-    top: 100px;
-    right: 100px;
+    width: 329px;
+    height: auto;
+    position: absolute;
+    top: 160px;
+    right: 88px;
+    z-index: 40;
+}
+
+.rectangle {
+  position: absolute;       /* allows absolute positioning inside */
+  width: 298px;
+  height: 471px;
+  top: 202px;
+  right: 134px;
+  background-color: #f69833;
+  border-radius: 60px; /* space so content isn't hidden behind header */
+}
+
+.intro {
+  position: absolute;
+  justify-content: flex-start;
+  text-align: left;
+  width: 895px;
+  color: #f69833;
+
+  font-size: 32px;
+  height: auto;
+  top: 320px;
+  left: 100px;
+}
+
+.introparagraph {
+  position: absolute;
+  justify-content: flex-start;
+  text-align: left;
+  width: 895px;
+  color: #f69833;
+
+  font-size: 32px;
+  height: auto;
+  top: 370px;
+  left: 100px;
 }
