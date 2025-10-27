@@ -2,6 +2,7 @@
   display: inline-flex;
   align-items: center;
   cursor: pointer;
+  justify-content: center;
   user-select: none;
   position: relative; /* needed for absolute curtain */
   overflow: hidden;   /* clip the curtain */

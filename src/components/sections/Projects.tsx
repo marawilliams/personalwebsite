@@ -1,0 +1,16 @@
+import { FunctionComponent } from "react";
+import styles from "../../styles/Projects.module.css";
+
+const Projects: FunctionComponent = () => {
+  return (
+    <section className={styles.section} id="projects">
+      <div className={styles.rectangle}>
+        <h2 className={styles.header}>projects</h2>
+        {/* Content inside the rectangle */}
+        <p>Example skills content here</p>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

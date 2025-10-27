@@ -22,6 +22,6 @@ font-family: 'Press Start 2P';
   height: 100%;
   padding: 0 1rem;
   gap: 12px;                   /* spacing between buttons */
-
+  justify-content: center;
   flex-wrap: nowrap;      /* prevent wrapping to next line */
 }

@@ -5,6 +5,11 @@ import Nav from "../components/Nav";
 import Button from "../components/NavButton";
 import Skills from "../components/sections/Skills";
 import Intro from "../components/sections/Intro";
+import Projects from "../components/sections/Projects";
+import Art from "../components/sections/Art";
+import Education from "../components/sections/Education";
+import Work from "../components/sections/Work";
+import About from "../components/sections/About";
 
 
 
@@ -19,11 +24,21 @@ export default function MainPage(){
                 <a href="#skills" className={styles.navLink}>
                             <Button text="skills" />
                 </a>
-                <Button text="projects" />
-                <Button text="art" />
-                <Button text="education" />
-                <Button text="work" />
-                <Button text="about" />
+                <a href="#projects" className={styles.navLink}>
+                            <Button text="projects" />
+                </a>
+                <a href="#art" className={styles.navLink}>
+                            <Button text="art" />
+                </a>
+                <a href="#education" className={styles.navLink}>
+                            <Button text="education" />
+                </a>
+                <a href="#work" className={styles.navLink}>
+                            <Button text="work" />
+                </a>
+                <a href="#about" className={styles.navLink}>
+                            <Button text="about" />
+                </a>
             </div></Nav>
 
             <div id="intro" className={styles.section}>
@@ -31,6 +46,21 @@ export default function MainPage(){
             </div>
             <div id="skills" className={styles.section}>
                 <Skills />
+            </div>
+            <div id="projects" className={styles.section}>
+                <Projects />
+            </div>
+            <div id="art" className={styles.section}>
+                <Art />
+            </div>
+            <div id="education" className={styles.section}>
+                <Education />
+            </div>
+            <div id="work" className={styles.section}>
+                <Work />
+            </div>
+            <div id="about" className={styles.section}>
+                <About />
             </div>
             <h1>This is the main page!</h1>
         </div>

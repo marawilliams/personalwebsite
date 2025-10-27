@@ -10,8 +10,7 @@
 .rectangle {
   position: relative;       /* allows absolute positioning inside */
   width: 100%;
-  height: 778px;
-  background-color: #e7ecd5;
+  height: 1181;
   border-radius: 8px;
   display: flex;
   flex-direction: column;

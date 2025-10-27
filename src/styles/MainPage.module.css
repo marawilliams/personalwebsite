@@ -33,17 +33,24 @@ html {
 }
 
 .imageButton {
+  position: absolute;
+  left: 35px;
+  top: 6px;
+  margin-right: auto;
   display: inline-block;
   width: 51px;      /* set your desired size */
   aspect-ratio: 1 / 1;
   background-image: url('../../public/assets/flower.png');
-  background-size: cover;
-  margin-right: 40px ;
-  margin-top: 11px;
-  transition: background-image 0.2s ease; /* smooth transition */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  transition: background-image 0.2s ease; /* smooth transition */ 
+  cursor: pointer;
+
 }
 
 .imageButton:hover {
   background-image: url('../../public/assets/flowerhovered.png');
-  cursor: pointer;
+    cursor: pointer;
 }

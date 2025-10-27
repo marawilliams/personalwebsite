@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import styles from "../../styles/Skills.module.css";
+import styles from "../../styles/Art.module.css";
 
-const Skills: FunctionComponent = () => {
+const Art: FunctionComponent = () => {
   return (
-    <section className={styles.section} id="skills">
+    <section className={styles.section} id="art">
       <div className={styles.rectangle}>
-        <h2 className={styles.header}>skills</h2>
+        <h2 className={styles.header}>art</h2>
         {/* Content inside the rectangle */}
         <p>Example skills content here</p>
       </div>
@@ -13,4 +13,4 @@ const Skills: FunctionComponent = () => {
   );
 };
 
-export default Skills;
+export default Art;
