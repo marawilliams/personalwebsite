@@ -10,7 +10,7 @@ top: 0;                    /* align to top of viewport */
 left: 0;
 color: #6c7f5b;
 justify-content: space-between; /* space between logo (or left) and buttons (right) */
-
+z-index: 1000;
 font-family: 'Press Start 2P';
 }
 

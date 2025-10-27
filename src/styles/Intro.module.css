@@ -1,0 +1,16 @@
+.section {
+  width: 100%;           /* full width */
+  height: 500px;         /* basic height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* center horizontally */
+  justify-content: center; /* center vertically */
+  margin: 50px auto;     /* spacing around section */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.header {
+  font-size: 32px;
+  margin-bottom: 20px;
+}

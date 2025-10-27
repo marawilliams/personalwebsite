@@ -1,18 +1,49 @@
 .MainPage {
-    position: relative;
+  position: relative;
   width: 100%;
-  height: 13218;
+  height: 13218px; /* I assume this is px */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* keep horizontal centering */
+  justify-content: flex-start; /* move children to top instead of middle */
   background-color: #FFFBE4; 
-  display: flex;
-  justify-content: center;
-  overflow: hidden; /* still hides any internal overflow */
+  overflow: hidden;
 }
 
 ::selection {
   background-color: #F69833; /* your custom highlight color */
   color: #FFFBE4;              /* optional: text color when highlighted */
-}   
+}  
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  scroll-margin-top: 110px;
+}
+
+.navLink {
+  text-decoration: none; /* remove underline */
+  color: inherit;        /* inherit text color from button */
+  cursor: pointer;       /* optional: pointer cursor */
+}
+
+.imageButton {
+  display: inline-block;
+  width: 51px;      /* set your desired size */
+  aspect-ratio: 1 / 1;
+  background-image: url('../../public/assets/flower.png');
+  background-size: cover;
+  margin-right: 40px ;
+  margin-top: 11px;
+  transition: background-image 0.2s ease; /* smooth transition */
+}
+
+.imageButton:hover {
+  background-image: url('../../public/assets/flowerhovered.png');
+  cursor: pointer;
+}
