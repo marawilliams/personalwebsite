@@ -5,6 +5,7 @@ const Education: FunctionComponent = () => {
   return (
     <section className={styles.section} id="education">
       <div className={styles.rectangle}>
+        <img src = "/assets/skillsicon.png" alt = "Decorative" className = {styles.icon}/>
         <h2 className={styles.header}>education</h2>
 
         <div className={styles.collage}>
@@ -41,8 +42,8 @@ const Education: FunctionComponent = () => {
               <ul className = {styles.activitieslist}>
                 <li>Rodman Scholar
                   <ul className = {styles.rodman}>
-                    <li>"honors program for the top 5-6% of each class in the engineering school"</li>
-                    <li>"selected for their superior academic performance and potential to become the engineering leaders of tomorrow</li>
+                    <li>&quot;honors program for the top 5-6% of each class in the engineering school&quot;</li>
+                    <li>&quot;selected for their superior academic performance and potential to become the engineering leaders of tomorrow&quot;</li>
                   </ul>
                 </li>
                 <li>Climbing Team</li>
