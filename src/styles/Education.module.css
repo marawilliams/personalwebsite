@@ -212,3 +212,39 @@ font-weight:normal;
 .scholarship {
   font-weight: 1;
 }
+
+.dots {
+  position: relative;
+  top: 20%;
+  left: 40%;
+}
+
+.flag {
+  position: relative;
+  top: -113%;
+  left: -29%;
+}
+
+.star1{
+  position: relative;
+  top: -17.5%;
+  left: -23%;
+}
+
+.star2{
+  position: relative;
+  top: -40%;
+  left: -45%
+}
+
+.star3 {
+  position: relative;
+  top: -32%;
+  left: 14%;
+}
+
+.star4{
+  position: relative;
+  top: -90%;
+  left: 35%;
+}

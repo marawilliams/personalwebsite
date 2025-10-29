@@ -5,7 +5,6 @@ const Education: FunctionComponent = () => {
   return (
     <section className={styles.section} id="education">
       <div className={styles.rectangle}>
-        <img src = "/assets/skillsicon.png" alt = "Decorative" className = {styles.icon}/>
         <h2 className={styles.header}>education</h2>
 
         <div className={styles.collage}>
@@ -71,6 +70,12 @@ const Education: FunctionComponent = () => {
             </ul>
           </div>
         </div>
+        <img src = "/assets/edudots.png" alt = "Decorative" className = {styles.dots}/>
+        <img src = "/assets/edustar1.png" alt = "Decorative" className = {styles.star1}/>
+        <img src = "/assets/edustar2.png" alt = "Decorative" className = {styles.star2}/>
+        <img src = "/assets/edustar3.png" alt = "Decorative" className = {styles.star3}/>
+        <img src = "/assets/edustar4.png" alt = "Decorative" className = {styles.star4}/>
+        <img src = "/assets/uvapennant.png" alt = "Decorative" className = {styles.flag}/>
       </div>
     </section>
   );
