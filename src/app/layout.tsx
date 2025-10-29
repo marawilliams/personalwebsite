@@ -8,6 +8,9 @@ const pressStart2P = Press_Start_2P({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: 'mara williams portfolio',
   description: 'Landing Page',
+  icons: {
+    icon: "/assets/flower.png",
+  }
 };
 
 export default function RootLayout({
