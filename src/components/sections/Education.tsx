@@ -58,12 +58,12 @@ const Education: FunctionComponent = () => {
             <ul className = {styles.achievementslist}>
               <li>DAR Good Citizens Award
                 <ul>
-                  <li className = {styles.scholarship}>"qualities of dependability, service, leadership, and patriotism"</li>
+                  <li className = {styles.scholarship}>&quot;qualities of dependability, service, leadership, and patriotism&quot;</li>
                 </ul>
               </li>
               <li>Charla Ilgner Art with a Heat Crevier Family Foundation Scholarhsip
                 <ul>
-                  <li className = {styles.scholarship}>"an innovative, create student who participates in... the arts... with a big heart, displays strong character, is unselfish, and shows empathy and concern for others"</li>
+                  <li className = {styles.scholarship}>&quot;an innovative, create student who participates in... the arts... with a big heart, displays strong character, is unselfish, and shows empathy and concern for others&quot;</li>
                 </ul>
               </li>
               <li>Michael G. Smithers Memorial STEM Scholarship</li>
