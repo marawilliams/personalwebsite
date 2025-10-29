@@ -1,6 +1,6 @@
 .section {
   width: 100%;           /* full width */
-  height: 700px;         /* basic height */
+  height: 691;         /* basic height */
   display: flex;
   flex-direction: column;
   align-items: center;   /* center horizontally */
@@ -42,7 +42,7 @@
 
   font-size: 32px;
   height: auto;
-  top: 320px;
+  top: 290px;
   left: 100px;
 }
 
@@ -55,6 +55,6 @@
 
   font-size: 32px;
   height: auto;
-  top: 370px;
+  top: 340px;
   left: 100px;
 }

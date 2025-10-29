@@ -10,7 +10,7 @@
 .rectangle {
   position: relative;       /* allows absolute positioning inside */
   width: 100%;
-  height: 1181;
+  height: 1250;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -33,4 +33,182 @@ font-weight:normal;
   background-color: transparent; /* optional: leave transparent or match section */
   padding: 0 10px;
   z-index: 2;
+}
+
+.collage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.degreeInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  gap: 10px; /* space between university and degree */
+}
+
+.university {
+  font-family: 'Red Hat Mono', monospace;
+  color: #F69833;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.degree {
+  font-family: 'Press Start 2P', monospace;
+  color: #6c7f5b;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.gpa {
+  position: absolute;
+  top: 12%; /* starts right below the degreeInfo block */
+  left: 40%;
+  transform: translateX(-50%);
+  border-radius: 82.5px;
+  background: #E7ECD5;
+  width: 237px;
+  height: 171px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;
+  gap: 20px; /* space between "GPA" and "3.9" */
+}
+
+.gpa p {
+  font-family: 'Press Start 2P', monospace;
+  color: #6c7f5b;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.coursework {
+  position: absolute;
+  top: 12%; /* starts right below the degreeInfo block */
+  left: 40%;
+  transform: translateX(23%);
+  border-radius: 82.5px;
+  background: rgba(108, 127, 91, 0.25);
+  width: 650px;
+  height: 328px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;
+  color:#FFFBE4;
+  font-family: 'Red Hat Mono',monospace;
+  font-size: 25px;
+  line-height: 1;
+  padding-top: 40;
+  font-weight: 700;
+  font-size: 30;
+}
+
+
+.bulletlist {
+  color:#FFFBE4;
+  list-style:none;  
+  font-weight: 300;
+  font-size: 24;
+}
+
+.bulletlist li {
+  position: relative;
+  padding-left: 30px; /* space for the bullet */
+  line-height: 1.4;
+  color: #FFFBE4;
+}
+
+.bulletlist li::before {
+  content: "";
+  position: absolute;
+  left: -20; /* bullet sits at the start of the padding */
+  top: 50%; /* vertically center */
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  background-image: url('/assets/bulletstar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bulletlist li {
+  top: -40;
+}
+.bulletlist li:nth-child(4) {
+  left: 30px; /* move only the second bullet */
+}
+.bulletlist li:nth-child(5) {
+  left: 45px; /* move only the second bullet */
+}
+.bulletlist li:nth-child(6) {
+  left: 45px; /* move only the second bullet */
+}
+
+.educationrectangle {
+  position: absolute;
+  top: 26%; /* starts right below the degreeInfo block */
+  left: 6%;
+}
+
+
+.activitiesbullets {
+  position: absolute;
+  top: 27.5%;
+  left: 10%;
+  width: 700px;
+  font-family: 'Red Hat Mono', monospace;
+  font-size: 30px;
+  font-weight: 700;
+  color:#6c7f5b;
+}
+
+
+.activitieslist {
+  text-align: left;
+  line-height: 1.1;
+  font-size: 24;
+  font-weight: 600;
+}
+
+.rodman {
+  font-weight: 400;
+}
+
+.achievements {
+  position: absolute;
+  top: 57%;
+  width: 1400;
+  color:#F69833;
+  font-size: 48;
+  font-weight: 700;  
+  font-family: 'Red Hat Mono', monospace;
+
+}
+
+.achievementslist {
+  text-align: left;
+  position: relative;
+  top: -30px;
+  line-height: 2.1;
+  list-style: none;
+  color:#6c7f5b;
+  font-size: 24;
+  font-weight:600;
+}
+
+.scholarship {
+  font-weight: 1;
 }

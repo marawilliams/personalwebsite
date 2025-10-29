@@ -45,7 +45,9 @@ const HoverImageCycle: React.FC<HoverImageCycleProps> = ({
         position: "relative",
         overflow: "hidden",
         borderRadius: 16,
-        cursor: "pointer",
+        cursor: isHovered
+          ? 'url("/assets/cursorpoint.png") 0 0, pointer'
+          : 'url("/assets/cursorplane.png") 0 0, auto',
       }}
     >
       <img

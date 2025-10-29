@@ -27,7 +27,7 @@ export default function MainPage(){
                 <a href="#projects" className={styles.navLink}>
                             <Button text="projects" />
                 </a>
-                <a href="#art" className={styles.navLink}>
+                <a href="#artsection" className={styles.navLink}>
                             <Button text="art" />
                 </a>
                 <a href="#education" className={styles.navLink}>
@@ -50,7 +50,7 @@ export default function MainPage(){
             <div id="projects" className={styles.section}>
                 <Projects />
             </div>
-            <div id="art" className={styles.section}>
+            <div id="artsection" className={styles.section}>
                 <Art />
             </div>
             <div id="education" className={styles.section}>
@@ -62,7 +62,6 @@ export default function MainPage(){
             <div id="about" className={styles.section}>
                 <About />
             </div>
-            <h1>This is the main page!</h1>
         </div>
     )
 }

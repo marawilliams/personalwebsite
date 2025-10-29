@@ -1,37 +1,71 @@
 .section {
   display: flex;
   width: 100%;
-  justify-content: center; /* center rectangle horizontally */
+  justify-content: center;
   min-height: 400px;
   text-align: center;
   z-index: 1;
+  scroll-margin-top: 1000;
 }
 
 .rectangle {
-  position: relative;       /* allows absolute positioning inside */
+  position: relative;
   width: 100%;
   height: 4454px;
   background-color: #e7ecd5;
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px; /* space so content isn't hidden behind header */
+  padding-top: 60px;
 }
 
-/* Header overlapping rectangle */
+/* Header */
 .header {
-  position: absolute;       /* position relative to rectangle */
-  top: -100px;               /* moves half of header above rectangle */
-  left: 50%;                /* center horizontally */
-  transform: translateX(-50%);
- font-size: 64px;
-line-height: 150%;
-font-family: 'Press Start 2P';
-color: #6c7f5b;
-text-align: center;
-font-weight:normal;
-  background-color: transparent; /* optional: leave transparent or match section */
+  position: relative;
+  margin-top: -110px;
+  font-size: 64px;
+  line-height: 150%;
+  font-family: "Press Start 2P";
+  color: #6c7f5b;
+  text-align: center;
+  font-weight: normal;
+  background-color: transparent;
   padding: 0 10px;
   z-index: 2;
 }
+
+/* Collage container — centered horizontally */
+.collage {
+  position: relative;
+  width: 1500px; /* total width of your collage area */
+  height: 4454px; /* enough height for all images */
+  margin: 0 auto; /* centers it in the page */
+  transform: translateX(2%); /* pull it back by half its width */
+}
+
+/* All images are positioned relative to the collage center */
+.collage img {
+  position: absolute;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.collage img:hover {
+  transform: scale(1.01) rotate(0.5deg);
+}
+
+/* 🎨 You don’t need to change your image positions much */
+.fridge { top: 0px; left: 44px; width: 627px; }
+.killua { top: 0px; left: 703px; width: 686px; }
+.bleach { top: 418px; left: 703px; width: 686px; }
+.chalkboard { top: 856px; left: 44px; width: 627px; }
+.hand { top: 967px; left: 703px; width: 318px; }
+.luffy { top: 1264px; left: 44px; width: 627px; }
+.fire { top: 3666px; left: 44px; width: 427px; }
+.horns { top: 967px; left: 1055px; width: 332px; }
+.model3d { top: 1367px; left: 703px; width: 690px; }
+.sketch { top: 1958px; left: 44px; width: 627px; }
+.crochet { top: 2158px; left: 703px; width: 690px; }
+.bus { top: 2645px; left: 44px; width: 427px; }
+.skateboard { top: 2645px; left: 500px; width: 173px; }
+.sage { top: 3065px; left: 44px; width: 427px; }
+.hoodie { top: 3512px; left: 500px; width: 893px; }
+.portrait { top: 2540px; left: 703px; width: 690px; }

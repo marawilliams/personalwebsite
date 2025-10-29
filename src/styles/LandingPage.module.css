@@ -24,6 +24,10 @@
   box-sizing: border-box;
 }
 
+.mush:hover{
+  cursor : url ('/assests/cursorpoint.png') 13 3 , pointer;
+}
+
 .mush1Icon {
 width: 245px;
 height: 371px;

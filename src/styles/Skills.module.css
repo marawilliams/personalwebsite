@@ -10,7 +10,7 @@
 .rectangle {
   position: relative;       /* allows absolute positioning inside */
   width: 100%;
-  height: 778px;
+  height: 700px;
   background-color: #e7ecd5;
   border-radius: 8px;
   display: flex;
@@ -40,28 +40,25 @@
 .skillscontainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* always 2 columns */
-  column-gap: 30px; /* space between columns */
   row-gap: 2rem;
+  column-gap: 50px;
   align-items: start;
-  width: 90%;
+  width: 100%;
+  align-items: top;
   max-width: 1000px;
-  margin-top: 40px;
 }
 
 /* Individual skill category box */
 .skillcategory {
-  background: #fff;
-  border-radius: 8px;
   width: auto;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  text-align: left;
+  text-align: center;
   width: 100%; /* let grid control column width */
+  color:#6c7f5b;
 }
 
 .skillcategory h3 {
   margin-bottom: 1rem;
   font-size: 1.25rem;
-  border-bottom: 2px solid #eee;
   padding-bottom: 0.5rem;
 }
 
@@ -76,23 +73,67 @@
 .skillitem {
   display: flex;
   align-items: center;
-  gap: 0.5rem;             /* space between name and dots */
+  gap: 0.5rem;  
+           /* space between name and dots */
 
 }
 
 /* Skill name styling */
 .skillname {
-  font-weight: 500;
+  font-size: 20px;
+   width: 150px;
+   font-family: 'Red Hat Mono', monospace;
+   text-align: right;
 }
 
 /* Dots container */
 .skillsdots {
   display: flex;
   gap: 0.25rem;
+  align-items: center;
 }
 
 /* Individual dot */
 .skilldot {
-  width: 18px;
-  height: 18px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.icon {
+    width: 213px;
+    height: auto;
+    position: absolute;
+    top: -95px;
+    left: 88px;
+    z-index: 40;
+}
+
+
+.star1 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+.star2 {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+}
+
+.star3 {
+  position: absolute;
+  top: -50;
+  width: 250px;
+  height: auto;
+  right: 30px;
+}
+
+
+.decor {
+  position: absolute;
+  top: 70px;
+  width: 250px;
+  height: auto;
+  right: 0px;
 }

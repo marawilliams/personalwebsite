@@ -47,6 +47,11 @@ const SkillSection: React.FC = () => {
     return (
     <section className={styles.section} id="art">
       <div className={styles.rectangle}>
+        <img src = "/assets/skillsicon.png" alt = "Decorative" className = {styles.icon}/>
+        <img src = "/assets/skillsstar1.png" alt = "Decorative" className = {styles.star1}/>
+        <img src = "/assets/skillsstar2.png" alt = "Decorative" className = {styles.star2}/>
+        <img src = "/assets/skillsstar3.png" alt = "Decorative" className = {styles.star3}/>
+        <img src = "/assets/skillsdecor.png" alt = "Decorative" className = {styles.decor}/>
         <h2 className={styles.header}>skills</h2>
         <div className = {styles.skillscontainer}>
           <SkillCategory title="Software" skills = {Software} dotImages={dotImages}/>
@@ -54,8 +59,6 @@ const SkillSection: React.FC = () => {
           <SkillCategory title="Art" skills = {Art} dotImages={dotImages}/>
           <SkillCategory title="Other" skills = {Other} dotImages={dotImages}/>
         </div>
-        {/* Content inside the rectangle */}
-        <p>Example skills content here</p>
       </div>
     </section>
   );

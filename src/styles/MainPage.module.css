@@ -27,10 +27,13 @@ html {
 }
 
 .navLink {
+  margin: 0px 20px;
+  display: inline-block;  /* shrink to content */
   text-decoration: none; /* remove underline */
   color: inherit;        /* inherit text color from button */
-  cursor: pointer;       /* optional: pointer cursor */
+  cursor: url("/assets/cursorplane.png") 0 0, pointer;
 }
+
 
 .imageButton {
   position: absolute;
@@ -52,5 +55,5 @@ html {
 
 .imageButton:hover {
   background-image: url('../../public/assets/flowerhovered.png');
-    cursor: pointer;
+  cursor: url("/assets/cursorpoint.png") 13 3, pointer;
 }

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,400;0,700&display=swap');
 
 
-body {
+body, html {
   	margin: 0; line-height: normal;
+	cursor: url('/assets/cursorplane.png') 0 0, auto
 }
