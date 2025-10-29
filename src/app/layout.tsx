@@ -9,7 +9,7 @@ export const metadata = {
   title: 'mara williams portfolio',
   description: 'Landing Page',
   icons: {
-    icon: "/assets/flower.png",
+    icon: "/assets/flowerhovered.png",
   }
 };
 
