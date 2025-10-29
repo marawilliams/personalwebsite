@@ -54,6 +54,6 @@ html {
 }
 
 .imageButton:hover {
-  background-image: url('../../public/assets/flowerhovered.png');
+  background-image: url('/assets/flowerhovered.png');
   cursor: url("/assets/cursorpoint.png") 13 3, pointer;
 }
