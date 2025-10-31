@@ -21,7 +21,6 @@ const Intro: FunctionComponent = () => {
             speed={{type: 'keyStrokeDelayInMs', value: 200}}
             style={{
               fontFamily: "'Press Start 2P', monospace",
-              fontSize: '32px',
               whiteSpace: "pre-line",
               display: "inline",
               }}
