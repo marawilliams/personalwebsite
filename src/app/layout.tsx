@@ -13,12 +13,12 @@ export const metadata = {
   },
   appleWebApp: {
     capable: true,
-    statusBarStyle: "black"
+    statusBarStyle: "default"
   }
 };
 
 export const viewport = {
-  themeColor: "#6C7F5B", // background color for status bar
+  themeColor: "#E7ECD5", // background color for status bar
 };
 
 export default function RootLayout({
@@ -30,8 +30,8 @@ export default function RootLayout({
     <html lang="en" className={pressStart2P.className}>
       <body>{children}</body>
       <head>
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="theme-color" content="#6C7F5B" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="theme-color" content="#E7ECD5" />
       </head>
     </html>
   );
