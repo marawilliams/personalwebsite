@@ -10,7 +10,15 @@ export const metadata = {
   description: 'Landing Page',
   icons: {
     icon: "/assets/flowerhovered.png",
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black"
   }
+};
+
+export const viewport = {
+  themeColor: "#6C7F5B", // background color for status bar
 };
 
 export default function RootLayout({
@@ -21,6 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={pressStart2P.className}>
       <body>{children}</body>
+      <head>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="theme-color" content="#6C7F5B" />
+      </head>
     </html>
   );
 }
