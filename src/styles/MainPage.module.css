@@ -27,7 +27,7 @@ html {
 }
 
 .navLink {
-  margin: 0px 20px;
+  margin: 0px 1.3vw;
   display: inline-block;  /* shrink to content */
   text-decoration: none; /* remove underline */
   color: inherit;        /* inherit text color from button */
@@ -37,11 +37,11 @@ html {
 
 .imageButton {
   position: absolute;
-  left: 35px;
-  top: 6px;
+  left: 2.4vw;
+  top: 0.7vw;
   margin-right: auto;
   display: inline-block;
-  width: 51px;      /* set your desired size */
+  width: 3.5vw;      /* set your desired size */
   aspect-ratio: 1 / 1;
   background-image: url('../../public/assets/flower.png');
   background-size: contain;
