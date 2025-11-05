@@ -1,12 +1,12 @@
 /* LandingPage.module.css */
 .letsGo {
   color: #fffbe4;
-  font-size: 48px;
+  font-size: 3.3vw;
   transition: all 0.5s ease;
 }
 
 .letsGoActive {
   color: #6C7F5B;
-  font-size: 48px;
+  font-size: clamp(35px, calc(35px + (13 * ((100vw - 320px) / 1120))), 48px);
   transition: all 0.5s ease;
 }
