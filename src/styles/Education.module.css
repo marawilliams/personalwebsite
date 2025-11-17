@@ -10,28 +10,28 @@
 .rectangle {
   position: relative;       /* allows absolute positioning inside */
   width: 100%;
-  height: 1250;
+  height: 83.3333dvw;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px; /* space so content isn't hidden behind header */
+  padding-top: 4dvw; /* space so content isn't hidden behind header */
 }
 
 /* Header overlapping rectangle */
 .header {
   position: absolute;       /* position relative to rectangle */
-  top: -100px;               /* moves half of header above rectangle */
+  top: -6.6667dvw;               /* moves half of header above rectangle */
   left: 50%;                /* center horizontally */
   transform: translateX(-50%);
- font-size: 64px;
+ font-size: 4.266666dvw;
 line-height: 150%;
 font-family: 'Press Start 2P';
 color: #6c7f5b;
 text-align: center;
 font-weight:normal;
   background-color: transparent; /* optional: leave transparent or match section */
-  padding: 0 10px;
+  padding: 0 0.66666667dvw;
   z-index: 2;
 }
 
@@ -40,21 +40,21 @@ font-weight:normal;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 600px;
+  max-width: 40dvw;
 }
 
 .degreeInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 700px;
-  gap: 10px; /* space between university and degree */
+  width: 46.66667dvw;
+  gap: 0.66666667dvw; /* space between university and degree */
 }
 
 .university {
   font-family: 'Red Hat Mono', monospace;
   color: #F69833;
-  font-size: 30px;
+  font-size: 2dvw;
   font-weight: 500;
   text-align: center;
   margin: 0;
@@ -63,7 +63,7 @@ font-weight:normal;
 .degree {
   font-family: 'Press Start 2P', monospace;
   color: #6c7f5b;
-  font-size: 27px;
+  font-size: 1.8dvw;
   font-weight: 400;
   text-align: center;
   margin: 0;
@@ -71,37 +71,35 @@ font-weight:normal;
 
 .gpa {
   position: absolute;
-  top: 12%; /* starts right below the degreeInfo block */
-  left: 40%;
-  transform: translateX(-50%);
-  border-radius: 82.5px;
+  top: 10dvw; /* starts right below the degreeInfo block */
+  left: 32dvw;
+  border-radius: 5.5dvw;
   background: #E7ECD5;
-  width: 237px;
-  height: 171px;
+  width: 15.8dvw;
+  height: 11.4dvw;
   display: flex;
   flex-direction: column;
   justify-content: center; /* vertical center */
   align-items: center;
-  gap: 20px; /* space between "GPA" and "3.9" */
+  gap: 1.33333dvw; /* space between "GPA" and "3.9" */
 }
 
 .gpa p {
   font-family: 'Press Start 2P', monospace;
   color: #6c7f5b;
-  font-size: 40px;
+  font-size: 2.666667dvw;
   font-weight: 400;
   margin: 0;
 }
 
 .coursework {
   position: absolute;
-  top: 12%; /* starts right below the degreeInfo block */
-  left: 40%;
-  transform: translateX(23%);
-  border-radius: 82.5px;
+  top: 10dvw; /* starts right below the degreeInfo block */
+  left: 50dvw;
+  border-radius: 5.5dvw;
   background: rgba(108, 127, 91, 0.25);
-  width: 650px;
-  height: 328px;
+  width: 43.33333dvw;
+  height: 21.866667dvw;
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -109,11 +107,11 @@ font-weight:normal;
   align-items: center;
   color:#FFFBE4;
   font-family: 'Red Hat Mono',monospace;
-  font-size: 25px;
-  line-height: 1;
-  padding-top: 40;
+  font-size: 1.666667dvw;
+  line-height: 2dvw;
+  padding-top: 2.6666667dvw;
   font-weight: 700;
-  font-size: 30;
+  font-size:2dvw;
 }
 
 
@@ -121,56 +119,55 @@ font-weight:normal;
   color:#FFFBE4;
   list-style:none;  
   font-weight: 300;
-  font-size: 24;
+  font-size: 1.6dvw;
 }
 
 .bulletlist li {
   position: relative;
-  padding-left: 30px; /* space for the bullet */
-  line-height: 1.4;
+  padding-left: 2 dvw; /* space for the bullet */
+  line-height: 2.5dvw;
   color: #FFFBE4;
 }
 
 .bulletlist li::before {
   content: "";
   position: absolute;
-  left: -20; /* bullet sits at the start of the padding */
-  top: 50%; /* vertically center */
-  transform: translateY(-50%);
-  width: 35px;
-  height: 35px;
+  left: -3.3333dvw; /* bullet sits at the start of the padding */
+  width: 2.33333dvw;
+  height: 2.333333dvw;
   background-image: url('/assets/bulletstar.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .bulletlist li {
-  top: -40;
+  top: -2.66666dvw;
 }
 .bulletlist li:nth-child(4) {
-  left: 30px; /* move only the second bullet */
+  left: 2dvw; /* move only the second bullet */
 }
 .bulletlist li:nth-child(5) {
-  left: 45px; /* move only the second bullet */
+  left: 3dvw; /* move only the second bullet */
 }
 .bulletlist li:nth-child(6) {
-  left: 45px; /* move only the second bullet */
+  left: 3dvw; /* move only the second bullet */
 }
 
 .educationrectangle {
   position: absolute;
-  top: 26%; /* starts right below the degreeInfo block */
-  left: 6%;
+  top: 22.5dvw; /* starts right below the degreeInfo block */
+  left: 6.9dvw;
+  width: 52dvw
 }
 
 
 .activitiesbullets {
   position: absolute;
-  top: 27.5%;
-  left: 10%;
-  width: 700px;
+  top: 24dvw;
+  left: 10dvw;
+  width: 46.45dvw;
   font-family: 'Red Hat Mono', monospace;
-  font-size: 30px;
+  font-size: 2dvw;
   font-weight: 700;
   color:#6c7f5b;
 }
@@ -178,8 +175,8 @@ font-weight:normal;
 
 .activitieslist {
   text-align: left;
-  line-height: 1.1;
-  font-size: 24;
+  line-height: 1.6666dvw;
+  font-size: 1.5dvw;
   font-weight: 600;
 }
 
@@ -189,10 +186,10 @@ font-weight:normal;
 
 .achievements {
   position: absolute;
-  top: 57%;
-  width: 1400;
+  top: 50dvw;
+  width: 93.3333dvw;
   color:#F69833;
-  font-size: 48;
+  font-size: 3.2dvw;
   font-weight: 700;  
   font-family: 'Red Hat Mono', monospace;
 
@@ -200,12 +197,12 @@ font-weight:normal;
 
 .achievementslist {
   text-align: left;
-  position: relative;
-  top: -30px;
-  line-height: 2.1;
+  position: absolute;
+  top: 7dvw;
+  line-height: 2.9dvw;
   list-style: none;
   color:#6c7f5b;
-  font-size: 24;
+  font-size: 1.5dvw;
   font-weight:600;
 }
 
@@ -214,37 +211,43 @@ font-weight:normal;
 }
 
 .dots {
-  position: relative;
-  top: 20%;
-  left: 40%;
+  position: absolute;
+  top: 25dvw;
+  left: 87dvw;
+  width: 10dvw;
 }
 
 .flag {
-  position: relative;
-  top: -113%;
-  left: -29%;
+  position: absolute;
+  top: -2dvw;
+  left: 15dvw;
+  width: 10dvw;
 }
 
 .star1{
-  position: relative;
-  top: -17.5%;
-  left: -23%;
+  position: absolute;
+  top: 8dvw;
+  left: 22dvw;
+  width: 10dvw;
 }
 
 .star2{
-  position: relative;
-  top: -40%;
-  left: -45%
+  position: absolute;
+  top: 2dvw;
+  left: 0dvw;
+  width: 11dvw;
 }
 
 .star3 {
-  position: relative;
-  top: -32%;
-  left: 14%;
+  position: absolute;
+  top: 32dvw;
+  left: 59dvw;
+  width:10dvw;
 }
 
 .star4{
-  position: relative;
-  top: -90%;
-  left: 35%;
+  position: absolute;
+  top: 2dvw;
+  left: 82dvw;
+  width: 14dvw;
 }

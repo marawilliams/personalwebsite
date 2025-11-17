@@ -11,7 +11,7 @@
 .rectangle {
   position: relative;
   width: 100%;
-  height: 4454px;
+  height: 296.93333dvw;  
   background-color: #e7ecd5;
   border-radius: 8px;
   padding-top: 60px;
@@ -36,7 +36,7 @@
 .collage {
   position: relative;
   width: 1500px; /* total width of your collage area */
-  height: 4454px; /* enough height for all images */
+  height: 296.93333dvw; /* enough height for all images */
   margin: 0 auto; /* centers it in the page */
   transform: translateX(2%); /* pull it back by half its width */
 }
@@ -53,19 +53,19 @@
 }
 
 /* 🎨 You don’t need to change your image positions much */
-.fridge { top: 0px; left: 44px; width: 627px; }
-.killua { top: 0px; left: 703px; width: 686px; }
-.bleach { top: 418px; left: 703px; width: 686px; }
-.chalkboard { top: 856px; left: 44px; width: 627px; }
-.hand { top: 967px; left: 703px; width: 318px; }
-.luffy { top: 1264px; left: 44px; width: 627px; }
-.fire { top: 3666px; left: 44px; width: 427px; }
-.horns { top: 967px; left: 1055px; width: 332px; }
-.model3d { top: 1367px; left: 703px; width: 690px; }
-.sketch { top: 1958px; left: 44px; width: 627px; }
-.crochet { top: 2158px; left: 703px; width: 690px; }
-.bus { top: 2645px; left: 44px; width: 427px; }
-.skateboard { top: 2645px; left: 500px; width: 173px; }
-.sage { top: 3065px; left: 44px; width: 427px; }
-.hoodie { top: 3512px; left: 500px; width: 893px; }
-.portrait { top: 2540px; left: 703px; width: 690px; }
+.fridge { top: 0vw; left: 1.93dvw; width: 41.8dvw; }
+.killua { top: 0vw; left: 45.866666dvw; width: 45.73333dvw; }
+.bleach { top: 27.86666dvw; left: 45.866666dvw; width: 45.73333dvw; }
+.chalkboard { top: 57.066666dvw; left: 1.933333dvw; width: 41.8dvw; }
+.hand { top: 64.4666666dvw; left: 45.866666dvw; width: 21.2dvw; }
+.luffy { top: 84.266666dvw; left: 1.933333dvw; width: 41.8dvw; }
+.fire { top: 244.4dvw; left: 1.933333dvw; width: 28.46666dvw; }
+.horns { top: 64.466666dvw; left: 69.3333dvw; width: 22.13333dvw; }
+.model3d { top: 91.1333333dvw; left: 45.866666dvw; width: 46dvw; }
+.sketch { top: 130.5333333dvw; left: 1.933333dvw; width: 41.8dvw; }
+.crochet { top: 143.8666666dvw; left: 45.866666dvw; width: 46dvw; }
+.bus { top: 176.333333dvw; left: 1.933333dvw; width: 28.46666dvw; }
+.skateboard { top: 176.33333dvw; left: 32.33333dvw; width: 11.5333dvw; }
+.sage { top: 204.333333dvw; left: 1.933333dvw; width: 28.46666dvw; }
+.hoodie { top: 234.13333333dvw; left: 32.333333dvw; width: 59.5333dvw; }
+.portrait { top: 169.333333dvw; left: 45.866666dvw; width: 46dvw; }
