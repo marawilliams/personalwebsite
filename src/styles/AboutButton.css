@@ -1,0 +1,17 @@
+.image-button {
+    display: inline-block;
+    width: 6dvw; /* adjust to your image size */
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.image-button:hover {
+    transform: scale(1.05); /* optional slight scale effect */
+    cursor: url("/assets/cursorpoint.png") 13 3, pointer;
+}
+
+.image-button-link {
+    text-decoration: none; /* remove underline for <a> */
+}

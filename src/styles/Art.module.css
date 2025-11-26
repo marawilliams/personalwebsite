@@ -11,34 +11,38 @@
 .rectangle {
   position: relative;
   width: 100%;
-  height: 296.93333dvw;  
+  height: 290dvw;  
   background-color: #e7ecd5;
   border-radius: 8px;
   padding-top: 60px;
+  justify-content: center;
 }
 
 /* Header */
 .header {
-  position: relative;
-  margin-top: -110px;
-  font-size: 64px;
-  line-height: 150%;
+  position: absolute;
+  top: -6dvw;
+  font-size: 4.5vw;
   font-family: "Press Start 2P";
   color: #6c7f5b;
   text-align: center;
   font-weight: normal;
   background-color: transparent;
-  padding: 0 10px;
+  padding: 0 0.5dvw;
   z-index: 2;
+  left: 50%;
+  
+transform: translateX(-50%);
 }
 
 /* Collage container — centered horizontally */
 .collage {
-  position: relative;
-  width: 1500px; /* total width of your collage area */
+  position: absolute;
+  top: 4dvw;
+  width: 94dvw; /* total width of your collage area */
   height: 296.93333dvw; /* enough height for all images */
-  margin: 0 auto; /* centers it in the page */
-  transform: translateX(2%); /* pull it back by half its width */
+  left: 50%;
+  transform: translateX(-50%);  
 }
 
 /* All images are positioned relative to the collage center */

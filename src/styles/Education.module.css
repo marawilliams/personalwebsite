@@ -157,7 +157,9 @@ font-weight:normal;
   position: absolute;
   top: 22.5dvw; /* starts right below the degreeInfo block */
   left: 6.9dvw;
-  width: 52dvw
+  width: 52dvw;
+  object-fit: fill;
+  height: 28dvw;
 }
 
 
@@ -165,7 +167,7 @@ font-weight:normal;
   position: absolute;
   top: 24dvw;
   left: 10dvw;
-  width: 46.45dvw;
+  width: 44.45dvw;
   font-family: 'Red Hat Mono', monospace;
   font-size: 2dvw;
   font-weight: 700;

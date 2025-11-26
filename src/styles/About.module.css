@@ -1,16 +1,16 @@
 .section {
   display: flex;
   width: 100%;
-  justify-content: center; /* center rectangle horizontally */
-  min-height: 400px;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
 }
 
 .rectangle {
   position: relative;       /* allows absolute positioning inside */
   width: 100%;
-  height: 778px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -21,16 +21,54 @@
 /* Header overlapping rectangle */
 .header {
   position: absolute;       /* position relative to rectangle */
-  top: -100px;               /* moves half of header above rectangle */
+  top: -7dvw;               /* moves half of header above rectangle */
   left: 50%;                /* center horizontally */
   transform: translateX(-50%);
- font-size: 64px;
+  font-size: 4.5vw;
 line-height: 150%;
 font-family: 'Press Start 2P';
 color: #6c7f5b;
 text-align: center;
 font-weight:normal;
   background-color: transparent; /* optional: leave transparent or match section */
-  padding: 0 10px;
   z-index: 2;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #F69833;
+  gap: 4dvw;
+  font-size: 1.7dvw;
+}
+
+.imageContainer img {
+  position: relative;
+  display: flex;
+  width:100dvw;
+  top: 3dvw;
+}
+
+.albumGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-items: center;
+  width: 90%;
+  margin: 10dvw;
+  align-items: center;
+  margin-bottom: 5dvw
+}
+
+.albumHeader {
+  position: relative;
+  font-size: 3dvw;
+  font-size: 2dvw;
+  color: #F69833;
+  font-family: 'Press Start 2P';
+  margin-top: 4dvw;
+  margin-bottom: -9dvw;
 }
