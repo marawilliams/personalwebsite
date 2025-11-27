@@ -5,6 +5,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+
   z-index: 1;
 }
 
@@ -15,6 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height:220dvw;
   padding-top: 60px; /* space so content isn't hidden behind header */
 }
 
@@ -35,40 +37,43 @@ font-weight:normal;
 }
 
 .content {
+  position: absolute;
+  top: 4dvw;
   display: flex;
   align-items: center;
-  text-align: center;
-  justify-content: center;
   color: #F69833;
   gap: 4dvw;
   font-size: 1.7dvw;
 }
 
 .imageContainer img {
-  position: relative;
+  position: absolute;
+  left: 51%;                /* center horizontally */
+  transform: translateX(-50%);
+  top:11dvw;
   display: flex;
   width:100dvw;
-  top: 3dvw;
 }
 
 .albumGrid {
-  position: relative;
+  position: absolute;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
+  bottom:0dvw;
   justify-items: center;
   width: 90%;
-  margin: 10dvw;
+  margin: 5dvw 5dvw;
   align-items: center;
-  margin-bottom: 5dvw
 }
 
 .albumHeader {
-  position: relative;
+  position: absolute;
   font-size: 3dvw;
   font-size: 2dvw;
   color: #F69833;
   font-family: 'Press Start 2P';
   margin-top: 4dvw;
-  margin-bottom: -9dvw;
+  bottom:0dvw;
+  margin-bottom: 65dvw;
 }

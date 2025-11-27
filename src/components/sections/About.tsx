@@ -9,7 +9,6 @@ const About: FunctionComponent = () => {
     <section className={styles.section} id="about">
       <div className={styles.rectangle}>
         <h2 className={styles.header}>about</h2>
-      </div>
       <div className={styles.content}>
         <ImageButton
           href="tel:+19494131169"
@@ -62,6 +61,8 @@ const About: FunctionComponent = () => {
           />
         ))}
       </div>
+      </div>
+
     </section>
     
   );
