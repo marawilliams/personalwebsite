@@ -19,7 +19,16 @@ const Work: FunctionComponent = () => {
   <img className = {styles.slides} src="/assets/baristaframe.png" alt="Work 1" />
   <img className = {styles.slides} src="/assets/expeditionsframe.png" alt="Work 1" />
 </EmblaCarousel>
-
+      <img 
+        className={styles.decorativeImage}
+        src="assets/driedFlower.png"
+        alt="Decorative Work Image"
+      />
+      <img 
+        className={styles.yellowImage}
+        src="assets/yellowflower.png"
+        alt="Decorative Work Image"
+      />
       </div>
     </section>
   );
