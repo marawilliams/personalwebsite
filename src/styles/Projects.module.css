@@ -1,45 +1,42 @@
 .section {
-  display: flex;
+  position:relative;
+  display:flex;
   width: 100%;
-  justify-content: center; /* center rectangle horizontally */
-  min-height: 400px;
   text-align: center;
+  justify-content: center; /* center rectangle horizontally */
   z-index: 5;
+  height: fit-content;
 }
 
 .rectangle {
-  position: relative;       /* allows absolute positioning inside */
+  position: relative; /* allows absolute positioning inside */
   width: 100%;
-  height: fit-content;
-  margin-bottom: 4dvw;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px; /* space so content isn't hidden behind header */
 }
 
 /* Header overlapping rectangle */
 .header {
-  position: absolute;       /* position relative to rectangle */
-  top: -100px;               /* moves half of header above rectangle */
-  left: 50%;                /* center horizontally */
-  transform: translateX(-50%);
- font-size: 64px;
-line-height: 150%;
-font-family: 'Press Start 2P';
-color: #6c7f5b;
-text-align: center;
-font-weight:normal;
+  top: -6.5dvw;
+  position: relative; 
+  font-size: 4.5vw;
+  line-height: 150%;
+  font-family: 'Press Start 2P';
+  color: #6c7f5b;
+  text-align: center;
+  font-weight:normal;
   background-color: transparent; /* optional: leave transparent or match section */
-  padding: 0 10px;
   z-index: 2;
 }
 
 .grid {
+  position: relative;
+  top: -10dvw;
   display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 1fr));
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: -4dvw;
 }
 
 .card {

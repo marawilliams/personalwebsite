@@ -159,7 +159,7 @@ font-weight:normal;
   left: 6.9dvw;
   width: 52dvw;
   object-fit: fill;
-  height: 28dvw;
+  height: 29dvw;
 }
 
 
@@ -168,6 +168,7 @@ font-weight:normal;
   top: 24dvw;
   left: 10dvw;
   width: 44.45dvw;
+  line-height: 1dvw;
   font-family: 'Red Hat Mono', monospace;
   font-size: 2dvw;
   font-weight: 700;
