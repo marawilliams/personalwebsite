@@ -8,8 +8,8 @@
 }
 
 .album-image {
-  width: 100%;          /* fill container */
-  height: auto;         /* maintain aspect ratio */
+  width: 14.47vw;          /* fill container */
+  height: 100%;         /* maintain aspect ratio */
   object-fit: cover;
   transition: transform 0.3s ease;
   display: block;
