@@ -22,7 +22,7 @@
   position: absolute;
   top: 6vw;                 /* 160px → 11.1vw */
   right: 6.1vw;                /* 88px → 6.1vw */
-  z-index: 40;
+  z-index: 1;
 }
 
 .rectangle {
