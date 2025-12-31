@@ -1,7 +1,6 @@
 .section {
-  width: 100vw;                /* scales to full viewport width */
-  max-width: 1432px;
-  max-height:691px;         /* prevents it from stretching too much on big screens */
+  width: 100vw;   
+  height: 45vw;             /* scales to full viewport width */
   aspect-ratio: 1432 / 691;                /* proportional height (691px ≈ 48% of 1440px viewport) */
   display: flex;
   flex-direction: column;
